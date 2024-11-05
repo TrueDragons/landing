@@ -1,0 +1,17 @@
+{
+  "name": "td-landing",
+  "module": "index.imba",
+  "type": "module",
+  "devDependencies": {
+    "imba": "latest",
+    "bimba-cli": "latest",
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bunx bimba ./src/index.imba --outdir public --watch --clearcache",
+    "bundle": "bunx bimba ./src/index.imba --outdir public --minify"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
