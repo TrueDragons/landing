@@ -6,6 +6,8 @@ global css
 		h: 100vh
 		m: 0
 		p: 0
+		scroll-behavior: smooth
+		-webkit-overflow-scrolling: auto
 
 tag Path
 	length = 1000
@@ -37,7 +39,7 @@ tag Path
 
 tag App
 	<self>
-		<div>
+		<div> "version 0.1"
 			css h:100vh w:100% bgc:gray4
 		# <div [bgi:{`url("{map_back}")`}]>
 		# 	css h:4805px pos:relative ta:center bgp:center center bgr:no-repeat bgo:content-box
@@ -46,6 +48,6 @@ tag App
 		# 	css ml:auto
 		<Path [bgi:{`url("{map_back}")`}]>
 			# css pos:absolute t:-13px r:0 l:0
-			css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100% -webkit-overflow-scrolling: auto
+			css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
 
 imba.mount <App>
