@@ -1,4 +1,6 @@
+# @ts-ignore
 import map_back from './images/map.webp'
+import straus from './images/straus.gif'
 
 global css
 	html, body
@@ -12,6 +14,7 @@ global css
 
 tag Path
 	length = 1000
+	lastScrollTop = 0
 	
 	def mount
 		length = $path.getTotalLength!
@@ -22,18 +25,6 @@ tag Path
 			const draw = length * scrollpercent
 			$path.style.strokeDashoffset = length - draw
 
-		# # let body = document.getElementById('body')
-		$map.addEventListener "wheel", do(event)
-			event.preventDefault!
-			# let target = $map.scrollTop + document.documentElement.scrollTop + event.deltaY * 0.1
-			let y = event.deltaY * 0.1
-			# console.log target 
-			window.scrollBy(0,y)
-			# $map.scrollBy(x{
-			# 	top: target,
-			# 	behavior: "smooth"
-			# })
-		
 	css
 		.mask
 			fill: none;
@@ -52,15 +43,20 @@ tag Path
 
 tag App
 	<self>
-		<div> "version 0.0.2"
+		<div> "version 0.0.3"
 			css h:100vh w:100% bgc:gray4
 		# <div [bgi:{`url("{map_back}")`}]>
 		# 	css h:4805px pos:relative ta:center bgp:center center bgr:no-repeat bgo:content-box
 
 		# <img src=map_back>
 		# 	css ml:auto
-		<Path [bgi:{`url("{map_back}")`}]>
-			# css pos:absolute t:-13px r:0 l:0
-			css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
+		<div>
+			css pos:relative
+			<Path [bgi:{`url("{map_back}")`}]>
+				# css pos:absolute t:-13px r:0 l:0
+				css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
+			<img src=straus>
+				css pos:absolute t:5% w:20% l:20%
+
 
 imba.mount <App>

@@ -1,0 +1,2199 @@
+{
+  "frames": {
+    "Straus_00066": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 158,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10.5,
+        "y": 22,
+        "w": 158,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00067": {
+      "frame": {
+        "x": 0,
+        "y": 127.5,
+        "w": 158,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10.5,
+        "y": 22,
+        "w": 158,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00068": {
+      "frame": {
+        "x": 158,
+        "y": 0,
+        "w": 158,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10.5,
+        "y": 22,
+        "w": 158,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00065": {
+      "frame": {
+        "x": 158,
+        "y": 127.5,
+        "w": 157.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00026": {
+      "frame": {
+        "x": 0,
+        "y": 255,
+        "w": 157.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00061": {
+      "frame": {
+        "x": 157.5,
+        "y": 255,
+        "w": 157,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11.5,
+        "y": 21.5,
+        "w": 157,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00062": {
+      "frame": {
+        "x": 314.5,
+        "y": 255,
+        "w": 157,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11.5,
+        "y": 21.5,
+        "w": 157,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00008": {
+      "frame": {
+        "x": 315.5,
+        "y": 127.5,
+        "w": 157.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00009": {
+      "frame": {
+        "x": 0,
+        "y": 382.5,
+        "w": 157.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00064": {
+      "frame": {
+        "x": 157.5,
+        "y": 382.5,
+        "w": 157.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00025": {
+      "frame": {
+        "x": 315,
+        "y": 382.5,
+        "w": 157.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00069": {
+      "frame": {
+        "x": 471.5,
+        "y": 254.5,
+        "w": 157.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00063": {
+      "frame": {
+        "x": 472.5,
+        "y": 381.5,
+        "w": 157.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 22,
+        "w": 157.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00059": {
+      "frame": {
+        "x": 473,
+        "y": 0,
+        "w": 156.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 21.5,
+        "w": 156.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00060": {
+      "frame": {
+        "x": 316,
+        "y": 0,
+        "w": 156.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 21.5,
+        "w": 156.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00024": {
+      "frame": {
+        "x": 472.5,
+        "y": 508.5,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 21,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00057": {
+      "frame": {
+        "x": 0,
+        "y": 509.5,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 21,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00007": {
+      "frame": {
+        "x": 155.5,
+        "y": 509.5,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 21,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00010": {
+      "frame": {
+        "x": 311,
+        "y": 509.5,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 21,
+        "w": 155.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00027": {
+      "frame": {
+        "x": 473,
+        "y": 127.5,
+        "w": 156,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12.5,
+        "y": 21.5,
+        "w": 156,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00058": {
+      "frame": {
+        "x": 628,
+        "y": 508.5,
+        "w": 156,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12.5,
+        "y": 21.5,
+        "w": 156,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00056": {
+      "frame": {
+        "x": 629,
+        "y": 127.5,
+        "w": 155,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13.5,
+        "y": 21,
+        "w": 155,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00055": {
+      "frame": {
+        "x": 629.5,
+        "y": 0,
+        "w": 154.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14,
+        "y": 21,
+        "w": 154.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00053": {
+      "frame": {
+        "x": 630,
+        "y": 255,
+        "w": 153.5,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 20.5,
+        "w": 153.5,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00054": {
+      "frame": {
+        "x": 628,
+        "y": 635.5,
+        "w": 154,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14.5,
+        "y": 21,
+        "w": 154,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00070": {
+      "frame": {
+        "x": 466.5,
+        "y": 636,
+        "w": 153,
+        "h": 127.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 20,
+        "w": 153,
+        "h": 127.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00028": {
+      "frame": {
+        "x": 0,
+        "y": 637,
+        "w": 152.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 20,
+        "w": 152.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00052": {
+      "frame": {
+        "x": 152.5,
+        "y": 637,
+        "w": 152.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15.5,
+        "y": 20.5,
+        "w": 152.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00051": {
+      "frame": {
+        "x": 305,
+        "y": 637,
+        "w": 152,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16.5,
+        "y": 20.5,
+        "w": 152,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00006": {
+      "frame": {
+        "x": 619.5,
+        "y": 762.5,
+        "w": 152,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16.5,
+        "y": 20,
+        "w": 152,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00011": {
+      "frame": {
+        "x": 457,
+        "y": 763.5,
+        "w": 151.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 20,
+        "w": 151.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00050": {
+      "frame": {
+        "x": 0,
+        "y": 764,
+        "w": 151.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 20,
+        "w": 151.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00023": {
+      "frame": {
+        "x": 151.5,
+        "y": 764,
+        "w": 151.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 20,
+        "w": 151.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00049": {
+      "frame": {
+        "x": 303,
+        "y": 764,
+        "w": 150.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 20,
+        "w": 150.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00048": {
+      "frame": {
+        "x": 771.5,
+        "y": 762.5,
+        "w": 149,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 19.5,
+        "w": 149,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00047": {
+      "frame": {
+        "x": 782,
+        "y": 635.5,
+        "w": 148.5,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19.5,
+        "y": 19.5,
+        "w": 148.5,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00046": {
+      "frame": {
+        "x": 783.5,
+        "y": 255,
+        "w": 147,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 19,
+        "w": 147,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00005": {
+      "frame": {
+        "x": 783.5,
+        "y": 382,
+        "w": 147,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 19,
+        "w": 147,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00029": {
+      "frame": {
+        "x": 784,
+        "y": 508.5,
+        "w": 147,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 19,
+        "w": 147,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00012": {
+      "frame": {
+        "x": 784,
+        "y": 0,
+        "w": 146.5,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21.5,
+        "y": 19,
+        "w": 146.5,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00045": {
+      "frame": {
+        "x": 784,
+        "y": 126.5,
+        "w": 146,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 19,
+        "w": 146,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00022": {
+      "frame": {
+        "x": 608.5,
+        "y": 889.5,
+        "w": 146,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 18.5,
+        "w": 146,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00044": {
+      "frame": {
+        "x": 453.5,
+        "y": 890.5,
+        "w": 145,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 18.5,
+        "w": 145,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00043": {
+      "frame": {
+        "x": 754.5,
+        "y": 889.5,
+        "w": 143.5,
+        "h": 126.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 24.5,
+        "y": 18,
+        "w": 143.5,
+        "h": 126.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00042": {
+      "frame": {
+        "x": 630,
+        "y": 382.5,
+        "w": 142,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26,
+        "y": 18,
+        "w": 142,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00004": {
+      "frame": {
+        "x": 0,
+        "y": 891,
+        "w": 141.5,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26.5,
+        "y": 17.5,
+        "w": 141.5,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00030": {
+      "frame": {
+        "x": 141.5,
+        "y": 891,
+        "w": 141.5,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26.5,
+        "y": 17.5,
+        "w": 141.5,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00041": {
+      "frame": {
+        "x": 283,
+        "y": 891,
+        "w": 140.5,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27.5,
+        "y": 17.5,
+        "w": 140.5,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00013": {
+      "frame": {
+        "x": 930,
+        "y": 126.5,
+        "w": 141,
+        "h": 125.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 17.5,
+        "w": 141,
+        "h": 125.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00021": {
+      "frame": {
+        "x": 930.5,
+        "y": 0,
+        "w": 140.5,
+        "h": 125.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27.5,
+        "y": 17.5,
+        "w": 140.5,
+        "h": 125.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00071": {
+      "frame": {
+        "x": 898,
+        "y": 889.5,
+        "w": 139.5,
+        "h": 125.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 28.5,
+        "y": 17,
+        "w": 139.5,
+        "h": 125.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00040": {
+      "frame": {
+        "x": 920.5,
+        "y": 762.5,
+        "w": 139,
+        "h": 125.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 29,
+        "y": 17,
+        "w": 139,
+        "h": 125.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00039": {
+      "frame": {
+        "x": 930.5,
+        "y": 635,
+        "w": 137.5,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 30.5,
+        "y": 17,
+        "w": 137.5,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00031": {
+      "frame": {
+        "x": 930.5,
+        "y": 252,
+        "w": 136,
+        "h": 124.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 16.5,
+        "w": 136,
+        "h": 124.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00003": {
+      "frame": {
+        "x": 930.5,
+        "y": 376.5,
+        "w": 136,
+        "h": 124.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 16.5,
+        "w": 136,
+        "h": 124.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00038": {
+      "frame": {
+        "x": 931,
+        "y": 501,
+        "w": 135.5,
+        "h": 124.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32.5,
+        "y": 16.5,
+        "w": 135.5,
+        "h": 124.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00014": {
+      "frame": {
+        "x": 898,
+        "y": 1015,
+        "w": 135,
+        "h": 124.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 33,
+        "y": 16.5,
+        "w": 135,
+        "h": 124.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00020": {
+      "frame": {
+        "x": 598.5,
+        "y": 1016,
+        "w": 135,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 33,
+        "y": 16.5,
+        "w": 135,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00072": {
+      "frame": {
+        "x": 733.5,
+        "y": 1016,
+        "w": 133,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 16,
+        "w": 133,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00037": {
+      "frame": {
+        "x": 0,
+        "y": 1017,
+        "w": 133,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 35,
+        "y": 16,
+        "w": 133,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00036": {
+      "frame": {
+        "x": 133,
+        "y": 1017,
+        "w": 131,
+        "h": 123.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 37,
+        "y": 15.5,
+        "w": 131,
+        "h": 123.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00032": {
+      "frame": {
+        "x": 264,
+        "y": 1017,
+        "w": 131,
+        "h": 123.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 37,
+        "y": 15.5,
+        "w": 131,
+        "h": 123.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00015": {
+      "frame": {
+        "x": 395,
+        "y": 1017,
+        "w": 130.5,
+        "h": 123.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 37.5,
+        "y": 15.5,
+        "w": 130.5,
+        "h": 123.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00002": {
+      "frame": {
+        "x": 1033,
+        "y": 1015,
+        "w": 130.5,
+        "h": 123.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 37.5,
+        "y": 15.5,
+        "w": 130.5,
+        "h": 123.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00019": {
+      "frame": {
+        "x": 1037.5,
+        "y": 888,
+        "w": 129.5,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 38,
+        "y": 15.5,
+        "w": 129.5,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00073": {
+      "frame": {
+        "x": 1059.5,
+        "y": 760,
+        "w": 129,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 15.5,
+        "w": 129,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00035": {
+      "frame": {
+        "x": 1066.5,
+        "y": 252,
+        "w": 128,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 15,
+        "w": 128,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00033": {
+      "frame": {
+        "x": 1071,
+        "y": 0,
+        "w": 126.5,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41,
+        "y": 15,
+        "w": 126.5,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00074": {
+      "frame": {
+        "x": 1071,
+        "y": 123,
+        "w": 126.5,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41,
+        "y": 15,
+        "w": 126.5,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00001": {
+      "frame": {
+        "x": 1066.5,
+        "y": 375,
+        "w": 126.5,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41,
+        "y": 15,
+        "w": 126.5,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00018": {
+      "frame": {
+        "x": 1066.5,
+        "y": 498,
+        "w": 126,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41.5,
+        "y": 15,
+        "w": 126,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00016": {
+      "frame": {
+        "x": 1068,
+        "y": 621,
+        "w": 126,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41.5,
+        "y": 15,
+        "w": 126,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00075": {
+      "frame": {
+        "x": 1033,
+        "y": 1138.5,
+        "w": 125.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 42,
+        "y": 15,
+        "w": 125.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00034": {
+      "frame": {
+        "x": 866.5,
+        "y": 1139.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00000": {
+      "frame": {
+        "x": 525.5,
+        "y": 1140,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00017": {
+      "frame": {
+        "x": 650,
+        "y": 1140,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00076": {
+      "frame": {
+        "x": 133,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00077": {
+      "frame": {
+        "x": 0,
+        "y": 1141,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00078": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00079": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00080": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00081": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00082": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00083": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00084": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00085": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00086": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00087": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00088": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00089": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Straus_00090": {
+      "frame": {
+        "x": 257.5,
+        "y": 1140.5,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 43,
+        "y": 15,
+        "w": 124.5,
+        "h": 122.5
+      },
+      "sourceSize": {
+        "w": 207.5,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1198,
+      "h": 1264
+    },
+    "scale": 0.5
+  }
+}
