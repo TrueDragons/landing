@@ -2,8 +2,8 @@
 import tablo from '../images/tablo.webp'
 
 export tag Tablo
-	mstate = 'mon'
-	dstate = 'don'
+	mstate = 'moff'
+	dstate = 'doff'
 	flip = false
 	main = ''
 	dates = ''
