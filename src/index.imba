@@ -53,7 +53,7 @@ tag Path
 tag App
 	
 	<self>
-		<div> "version 0.0.3"
+		<div> "version 0.0.4"
 			css h:100vh w:100% bgc:gray4
 			
 		<div>
