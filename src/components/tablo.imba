@@ -1,9 +1,12 @@
 # @ts-ignore
-import tablo1 from '../images/tablo1.webp'
+import tablo from '../images/tablo.webp'
 
 export tag Tablo
 	mstate = 'mon'
 	dstate = 'don'
+	flip = false
+	main = ''
+	dates = ''
 	
 	css 
 		.mon
@@ -41,11 +44,11 @@ export tag Tablo
 		dstate = 'doff'
 
 	<self>
-		css pos:absolute t:6% w:24.5vw h:24.5vw r:22% of:hidden
-		<div.{mstate} @intersect.in=on @intersect.out=off> "Early Birds"
-			css pos:absolute mt:1vw ml:1vw pt:1vw pb:0.5vw w:250% ff:"Jersey 20" fw:400 fs:normal fs:4vw c:white
-		<div.{dstate}> "November-December 2024"
+		css of:hidden
+		<div.{mstate} @intersect.in=on @intersect.out=off> main
+			css pos:absolute mt:1vw ml:1vw pt:1.2vw pb:0.8vw w:250% ff:"Jersey 20" fw:400 fs:normal fs:3.5vw c:white ws:preserve
+		<div.{dstate}> dates
 			css pos:absolute w:23vw h:3vw mt:6.4vw ml:1vw pt:0.2vw ff:"Roboto" fw:700 fs:normal fs:1.6vw c:white ta:center
 			
-		<img src=tablo1>
+		<img src=tablo [scale-x:-1]=flip>
 			css w:25vw pos:absolute

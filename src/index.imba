@@ -10,9 +10,6 @@ global css
 		h: 100vh
 		m: 0
 		p: 0
-		# ff: 'Overpass', sans-serif
-		# scroll-behavior: smooth
-		# -webkit-overflow-scrolling: auto
 	@root
 		1dex: 1vw + 1vh
 
@@ -63,10 +60,16 @@ tag App
 			<div>
 				css pos:absolute t:5% l:20% w:20%
 				<Straus>
-			<Tablo>
-				css pos:absolute t:6% w:24.5vw h:24.5vw r:22% of:hidden
-					
-					
+			<Tablo main='  Early Birds' dates="November-December 2024">
+				css pos:absolute t:6% w:24.5vw h:24.5vw r:22%
+			<Tablo flip=true main="Memetic Test" dates="January-Fabruary 2025">
+				css pos:absolute t:18% w:24.41vw h:24.5vw l:22%
+			<Tablo main='     Big Drop' dates="March-April 2025">
+				css pos:absolute t:36% w:24.5vw h:24.5vw r:25%
+			<Tablo main='    RPG Game' dates="April-May 2025">
+				css pos:absolute t:50% w:24.5vw h:24.5vw r:30%
+			<Tablo flip=true main="Quest Bot IRL" dates="May-June 2025">
+				css pos:absolute t:87% w:24.41vw h:24.5vw l:16%
 		<div>
 			css h:100vh w:100% bgc:gray5
 		
