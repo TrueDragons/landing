@@ -1,17 +1,51 @@
 # @ts-ignore
-import map_back from './images/map.webp'
+import map_back from './images/map_back.webp'
+# @ts-ignore
+# import map_frame from './images/map_frame.webp'
+# @ts-ignore
+import straus from './assets/straus.webm'
 
+import {Block01} from './components/block01.imba'
+import {Block02} from './components/block02.imba'
+import {Block03} from './components/block03.imba'
+import {Block04} from './components/block04.imba'
+import {Block05} from './components/block05.imba'
+import {Block06} from './components/block06.imba'
+import {Block07} from './components/block07.imba'
+			
+			
 import {Straus} from './components/straus.imba'
 import {Tablo} from './components/tablo.imba'
 
 global css
 	html, body
-		w: 100%
-		h: 100vh
+		# w: 100%
+		# h: 100vh
 		m: 0
 		p: 0
+		bgc: #CFEAF8 # #d2edf8
+		# overscroll-behavior: none
+		scroll-snap-type: y mandatory;
 	@root
 		1dex: 1vw + 1vh
+	.block
+		d:vflex 
+		h:100vh max-height:100vh 
+		ml:auto mr:auto max-width:550px min-width:230px px:15px 
+		of:hidden ai:space-between
+		scroll-snap-align: start
+	.header
+		ff:"Sigmar One" fw:normal tt:uppercase fs:38px lh:41.8px # fs:4vh lh:5dex
+		c:white ta:center
+		ts: -2px 2px 0px #0f0f0f text-stroke: 1px #0f0f0f -webkit-text-stroke: 1px #0f0f0f
+		mt: 30px
+	.text
+		ff:"Montserrat" fw:normal fs:16px ta:left
+		c:#343434
+		mt: 30px
+		# mr: 50px ml:50px
+		# ml:10vw mr:10vw
+		# py:3vh
 
 
 tag Path
@@ -50,28 +84,45 @@ tag Path
 tag App
 	
 	<self>
-		<div> "version 0.0.6"
-			css h:100vh w:100% bgc:gray4
-			
-		<div>
-			css pos:relative
-			<Path [bgi:{`url("{map_back}")`}]>
-				css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
-			<div>
-				css pos:absolute t:5% l:20% w:20%
-				<Straus>
-			<Tablo main='  Early Birds' dates="November-December 2024">
-				css pos:absolute t:6% w:24.5vw h:24.5vw r:22%
-			<Tablo flip=true main="Memetic Test" dates="January-Fabruary 2025">
-				css pos:absolute t:18% w:24.41vw h:24.5vw l:22%
-			<Tablo main='     Big Drop' dates="March-April 2025">
-				css pos:absolute t:36% w:24.5vw h:24.5vw r:25%
-			<Tablo main='    RPG Game' dates="April-May 2025">
-				css pos:absolute t:50% w:24.5vw h:24.5vw r:30%
-			<Tablo flip=true main="Quest Bot IRL" dates="May-June 2025">
-				css pos:absolute t:87% w:24.41vw h:24.5vw l:16%
-		<div>
-			css h:100vh w:100% bgc:gray5
+		# css w:100%
+		<Block01>
+		<Block02>
+		# <Block03>
+		# <Block04>
+		# <Block05>
+		# <Block06>
+		# <Block07>
+		
+		# <div>
+		# 	css pos:relative
+		# 	# <img src=map_frame [bgi:{`url("{map_back}")`}]>
+		# 	# 	css w:90vw
+		# 	<Path [bgi:{`url("{map_back}")`}]>
+		# 		css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
+		# 	<div>
+		# 		css pos:absolute t:5% l:20% w:20%
+		# 		# <Straus>
+		# 		<video playsInline loop autoplay>
+		# 			css o:0.99 h:25vh # w:10vw
+		# 			# <source src='assets/straus.mp4' type='video/quicktime;codecs=hvc1'>
+		# 			# <source src='assets/straus.mov' type='video/quicktime'>
+		# 			# <source src='assets/straus.webm' type="video/webm">
+		# 			# <source src="assets/straus.mov" type='video/quicktime;codecs=hvc1'>
+		# 			# <source src="assets/movie-hevc.mov" type='video/quicktime'>
+		# 			<source src="assets/straus_1.mov" type='video/quicktime'>
+				
+		# 	<Tablo main='  Early Birds' dates="November-December 2024">
+		# 		css pos:absolute t:6% w:24.5vw h:24.5vw r:22%
+		# 	<Tablo flip=true main="Memetic Test" dates="January-Fabruary 2025">
+		# 		css pos:absolute t:18% w:24.41vw h:24.5vw l:22%
+		# 	<Tablo main='     Big Drop' dates="March-April 2025">
+		# 		css pos:absolute t:36% w:24.5vw h:24.5vw r:25%
+		# 	<Tablo main='    RPG Game' dates="April-May 2025">
+		# 		css pos:absolute t:50% w:24.5vw h:24.5vw r:30%
+		# 	<Tablo flip=true main="Quest Bot IRL" dates="May-June 2025">
+		# 		css pos:absolute t:87% w:24.41vw h:24.5vw l:16%
+		# <div>
+		# 	css h:100vh w:100% bgc:gray5
 		
 
 imba.mount <App>
