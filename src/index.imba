@@ -21,15 +21,18 @@ global css
 	html
 		# height: -webkit-fill-available
 		# scroll-margin-bottom: 20vh
-		scroll-snap-type: y mandatory
+		# scroll-snap-type: y mandatory
 		overscroll-behavior: none
-	# 	of: hidden #  w:100%
+		# 	of: hidden #  w:100%
+		max-width: 1000px
+		m:auto
 	body
-		# w: 100%
 		# h: 100vh
 		m: 0
 		p: 0
 		bgc: #CFEAF8 # #d2edf8
+		ta:center
+
 		# overflow-y: scroll
 		# scroll-snap-type: y proximity
 		# scroll-behavior: smooth
@@ -43,11 +46,11 @@ global css
 	.block
 		d:vflex 
 		# h:100% max-height:100% min-height:100%
-		h:100vh max-height:100vh min-height:100vh
+		# h:100vh max-height:100vh min-height:100vh
 		# h:100%
 		# h:-webkit-fill-available
 		# h:var(--app-height) max-height:var(--app-height) min-height:var(--app-height)
-		ml:auto mr:auto max-width:550px min-width:230px px:15px
+		min-width:230px px:30px
 		of:hidden
 		scroll-snap-align: start
 		scroll-snap-stop: always
@@ -55,8 +58,8 @@ global css
 		ff:"Sigmar One" fw:normal tt:uppercase fs:38px lh:41.8px # fs:4vh lh:5dex
 		c:white ta:center
 		ts: -2px 2px 0px #0f0f0f text-stroke: 1px #0f0f0f -webkit-text-stroke: 1px #0f0f0f
-		pt: 30px
-		mt:auto mb:auto
+		mt: 30px
+		# mt:auto mb:auto
 	.text
 		ff:"Montserrat" fw:normal fs:16px ta:left
 		c:#343434
@@ -64,6 +67,8 @@ global css
 		# mr: 50px ml:50px
 		# ml:10vw mr:10vw
 		# py:3vh
+	.video
+		o:0.99 object-fit:cover w:100% h:100% max-width:600px mt:30px
 
 
 tag Path
@@ -114,10 +119,9 @@ tag App
 		
 
 	<self>
-		# css w:100%
 		<Block01>
 		<Block02>
-		<Block02>
+		# <Block02>
 		# <Block03>
 		# <Block04>
 		# <Block05>
