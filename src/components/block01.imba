@@ -10,7 +10,7 @@ export tag Block01
 			css d:hflex h:32px ai:center mt:15px
 			<img src=icons.logo>
 				css w:100px
-			<span [ml:20px]> "version 0.0.2"
+			<span [ml:20px]> "version 0.0.3"
 			<img src=icons.telegram>
 				css ml:auto mr:15px o@hover:0.5 cursor:pointer ead:0.5s
 			<img src=icons.twitter>
@@ -18,12 +18,7 @@ export tag Block01
 		<div.header>
 			<span> "Feels like Falling "
 			<span [c:#97d666]> "Behind?"
-		# <video controlslist="nofullscreen" playsinline="" preload="" muted="" loop="" poster="../assets/poster-1.jpg" class="loop" src=video>
 		<div>
-			css ta:center # mt:20px 
-			<video.video playsInline loop autoplay>
-				# max-width:300px# h:65vh # w:90vw max-width:500px # aspect-ratio:0.8132 
+			<video.video playsInline loop autoplay muted>
 				<source src='assets/block01.mp4' type="video/mp4">
-		# <div>
-		# 	css w:100% h:10vh
 		
