@@ -30,7 +30,7 @@ global css
 		1dex: 1vw + 1vh
 	.block
 		d:vflex 
-		h:100vh max-height:100vh 
+		h:100vh max-height:100vh min-height:100vh
 		ml:auto mr:auto max-width:550px min-width:230px px:15px 
 		of:hidden ai:space-between
 		scroll-snap-align: start
@@ -38,7 +38,8 @@ global css
 		ff:"Sigmar One" fw:normal tt:uppercase fs:38px lh:41.8px # fs:4vh lh:5dex
 		c:white ta:center
 		ts: -2px 2px 0px #0f0f0f text-stroke: 1px #0f0f0f -webkit-text-stroke: 1px #0f0f0f
-		mt: 30px
+		pt: 30px
+		mt:auto mb:auto
 	.text
 		ff:"Montserrat" fw:normal fs:16px ta:left
 		c:#343434
