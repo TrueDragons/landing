@@ -18,22 +18,39 @@ import {Straus} from './components/straus.imba'
 import {Tablo} from './components/tablo.imba'
 
 global css
-	html, body
+	html
+		# height: -webkit-fill-available
+		# scroll-margin-bottom: 20vh
+		scroll-snap-type: y mandatory
+		overscroll-behavior: none
+	# 	of: hidden #  w:100%
+	body
 		# w: 100%
 		# h: 100vh
 		m: 0
 		p: 0
 		bgc: #CFEAF8 # #d2edf8
-		overscroll-behavior: none
-		scroll-snap-type: y mandatory;
+		# overflow-y: scroll
+		# scroll-snap-type: y proximity
+		# scroll-behavior: smooth
+		# position: fixed
+		# -webkit-overflow-scrolling: touch
+		# min-height: 100vh;
+		# min-height: -webkit-fill-available
 	# @root
+	# 	app-height: 100%
 	# 	1dex: 1vw + 1vh
 	.block
 		d:vflex 
+		# h:100% max-height:100% min-height:100%
 		h:100vh max-height:100vh min-height:100vh
-		ml:auto mr:auto max-width:550px min-width:230px px:15px 
-		of:hidden ai:space-between
+		# h:100%
+		# h:-webkit-fill-available
+		# h:var(--app-height) max-height:var(--app-height) min-height:var(--app-height)
+		ml:auto mr:auto max-width:550px min-width:230px px:15px
+		of:hidden
 		scroll-snap-align: start
+		scroll-snap-stop: always
 	.header
 		ff:"Sigmar One" fw:normal tt:uppercase fs:38px lh:41.8px # fs:4vh lh:5dex
 		c:white ta:center
@@ -84,9 +101,22 @@ tag Path
 
 tag App
 	
+	# def mount
+	# 	let resize = do 
+	# 		document.documentElement.style.setProperty('--app-height', "{window.innerHeight}px")
+	# 		console.log "{window.innerHeight}px"
+	# 	# window.scrollTo(0,1)
+	# 	# window.addEventListener('resize', resize)
+	# 	window.onresize = do resize!
+	# 	# document.body.height = window.innerHeight
+	# 	# console.log document.body.height
+	# 	resize!
+		
+
 	<self>
 		# css w:100%
 		<Block01>
+		<Block02>
 		<Block02>
 		# <Block03>
 		# <Block04>
