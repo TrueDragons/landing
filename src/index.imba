@@ -24,10 +24,10 @@ global css
 		m: 0
 		p: 0
 		bgc: #CFEAF8 # #d2edf8
-		# overscroll-behavior: none
+		overscroll-behavior: none
 		scroll-snap-type: y mandatory;
-	@root
-		1dex: 1vw + 1vh
+	# @root
+	# 	1dex: 1vw + 1vh
 	.block
 		d:vflex 
 		h:100vh max-height:100vh min-height:100vh
