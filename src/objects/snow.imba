@@ -1,38 +1,47 @@
 
-tag Showflake
-	size
-	left
-	duration
-	opacity
+tag Snowflake
+	width
+	duration = Math.round(1000 * Math.random! * 3 + 2)
+	melting = 1000
+	form = (Math.random! * 100 % 3 == 0) ? "❄" : "❅"
 	
-	<self [fs:{size}px l:{left}px animation-duration:{duration}s o:{opacity}]> "❄"
-		css c:white pos:absolute t:-20px animation: fall linear 2s forwards fw:900
-			@keyframes 
-				fall
-					to transform: translateY(105vh)	
+	def setup
+		setTimeout(&, duration + melting) do self.remove!
+		
+		self.style.setProperty("--melting", "{1000}ms")
+		self.style.setProperty("--duration", "{duration}ms")
+		self.style.setProperty("--size", "{Math.round(Math.random! * 6)}vh")
+		self.style.setProperty("--left", "{Math.round(Math.random! * width)}px")
+		self.style.setProperty("--opacity", "{(Math.random! / 2 + 0.5).toFixed(2)}")
+		self.style.setProperty("--start", "{Math.round(Math.random! * 80)}%")
+		
+	css
+		@keyframes 
+			melt
+				to o:0
+			fall 
+				to t:100%
+
+	<self> form
+		css c:#FFFFFF pos:absolute fw:900 fs:var(--size) l:var(--left) o:var(--opacity) pt:var(--start) t:calc(-1 * var(--start))
+			animation: var(--duration) linear fall forwards, var(--melting) linear var(--duration) melt
+			
+
+
 export tag Snow
-	count = 100
-	speed = 5000
-	height = 100
-	snowflakes = []
+	generate = 100
+	generator = undefined
+	
+	def start
+		return if generator
+		generator = setInterval(&, generate) do self.appendChild <Snowflake width=self.clientWidth>
+	
+	def stop
+		return if !generator
+		clearInterval(generator)
+		generator = undefined
 
-	def mount
-		setInterval(&, count) do
-			snowflakes.push
-				size: Math.random! * 6
-				left: Math.random! * self.clientWidth
-				duration: Math.random! * 3 + 2
-				opacity: Math.random!
-				start: Math.random! * 30
-				flake: ((Math.random! * 100 % 3 == 0) ? "❄" : "❅")
-			imba.commit!
-
-	<self>
-		for sf in snowflakes
-			<div [fs:{sf.size}vh l:{sf.left}px animation-duration:{sf.duration}s o:{sf.opacity} t:{sf.start}%]> sf.flake
-				css c:#FFFFFF pos:absolute fw:900 animation: linear fall forwards
-					@keyframes fall 
-						to t:100% # transform:translateY(100%)
+	<self @intersect.in=start @intersect.out=stop>
 						
 					
 
