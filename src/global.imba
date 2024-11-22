@@ -38,17 +38,22 @@ global css
 		# h:100%
 		# h:-webkit-fill-available
 		# h:var(--app-height) max-height:var(--app-height) min-height:var(--app-height)
-		min-width:230px px:2rem
+		min-width:230px
 		of:hidden
+		mt: 10vh
 		# scroll-snap-align: start
 		# scroll-snap-stop: always
 		
 	.header
-		ff:"Sigmar One" fw:normal tt:uppercase fs:2.4rem lh:2.6rem # fs:4vh lh:5dex
+		ff:"Sigmar One" fw:normal tt:uppercase fs:2.4rem lh:2rem # fs:4vh lh:5dex
 		c:white ta:center
 		ts: -2px 2px 0px #0f0f0f text-stroke: 1px #0f0f0f -webkit-text-stroke: 1px #0f0f0f
 		# mt: 30px
-		mt: 3vh
+		px:1rem
+		# ml:8rem mr:8rem
+		# fs@lt-md:2.2rem
+		# fs@lt-sm:1.8rem
+		# fs@lt-xs:1.2rem
 		# ml: auto mr: auto
 		
 		# mt:auto mb:auto
@@ -61,8 +66,10 @@ global css
 		c:#343434
 		# mt: 30px
 		mt:5%
+		px:1rem
 		# max-width:600px
 		ml: auto mr: auto
+		# ml:6rem mr:6rem
 		# mr: 50px ml:50px
 		# ml:10vw mr:10vw
 		# py:3vh

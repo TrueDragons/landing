@@ -10,7 +10,10 @@ import './global.imba'
 import {Hero} from './blocks/hero.imba'
 # import {B02} from './blocks/02.steps.imba'
 import {Buttons} from './blocks/buttons.imba'
-import {Painting} from './blocks/painting.imba'
+import {Steps} from './blocks/steps.imba'
+import {Friends} from './blocks/friends.imba'
+import {Slider} from './blocks/slider.imba'
+
 import {Rarity} from './blocks/rarity.imba'
 import {Hold} from './blocks/hold.imba'
 # import {Roadmap} from './blocks/roadmap.imba'
@@ -35,9 +38,10 @@ tag App
 
 	<self>
 		<Hero>
-		# <B02>
 		<Buttons>
-		<Painting>
+		<Steps>
+		<Friends>
+		<Slider>
 		<Rarity>
 		<Hold>
 		<Roadmap>

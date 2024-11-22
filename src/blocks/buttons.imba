@@ -2,11 +2,15 @@
 export tag Buttons
 	<self.block>
 		<div.header>
-			# css h:23vh
-			<span> "Reveal who you " 
-			<span.green> "truly "
-			<span> "are and "
-			<span.green > "earn"
+			<span> "YOU LOSE NOTHING AS LONG AS YOU STAY TRUE TO YOURSELF"
+			# <span> "Reveal who" 
+			# <br>
+			# <span> "you " 
+			# <span.green> "truly "
+			# <br>
+			# <span> "are and "
+			# <br>
+			# <span.green > "earn"
 		<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
 		<div>
 			<video.video playsInline loop autoplay muted>

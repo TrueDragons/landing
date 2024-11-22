@@ -19,15 +19,17 @@ export tag Hold
 
 	<self.block>
 		<div.header>
-			# css white-space:preserve
-			# css h:23vh
-			<span.gray> "Step three:" 
-			<br>
-			<span> "Be like a " 
-			<span.green> "dragon"
-			<br>
-			<span> "and hold your " 
-			<span.green> "$true"
+			<span> "BEING A TRUE DRAGON MEANS TO KEEP YOUR $TRUEs"
+			# <span.gray> "Step three:" 
+			# <br>
+			# <span> "Be like a "
+			# <br>
+			# <span.green> "dragon"
+			# <br>
+			# <span> "and hold" 
+			# <br>
+			# <span> "your " 
+			# <span.green> "$true"
 			
 		
 		<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."

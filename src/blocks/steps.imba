@@ -1,4 +1,4 @@
-export tag B02
+export tag Steps
 	css 
 		.num mt:10px
 		.text mt:15px ml:15px
@@ -14,12 +14,12 @@ export tag B02
 			<div>
 				css d:hflex ai:center
 				<span.header.num> '1'
-				<span.text> 'Discover your true self'
+				<span.text [fw:800 pl:0 ml:0]> 'Discover your true self'
 			<div>
 				css d:hflex ai:center
 				<span.header.num> '2'
-				<span.text> 'Get money just for who you are'
+				<span.text [fw:800 pl:0 ml:0]> 'Get money just for who you are'
 			<div>
 				css d:hflex ai:center
 				<span.header.num> '3'
-				<span.text> "That's it..."
+				<span.text [fw:800 pl:0 ml:0]> "That's it..."

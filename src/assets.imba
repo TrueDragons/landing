@@ -22,3 +22,11 @@ export const images =
 		height: 958
 	map:
 		url: './assets/map.avif'
+	straus_body:
+		url: './assets/straus_body.avif'
+		width: 257
+		height: 249
+	straus_wing: 
+		url: './assets/straus_wing.avif'
+		width: 257
+		height: 249

@@ -5,18 +5,18 @@ const icons = {
 }
 
 export tag Hero
-	<self.block>
+	<self.block [mt:0]>
 		<div>
-			css d:hflex h:32px ai:center mt:15px
+			css d:hflex h:32px ai:center mt:15px px:2rem
 			<img src=icons.logo>
 				css w:100px
-			<span [ml:20px]> "version 0.0.6"
+			<span [ml:20px]> "version 0.0.7"
 			<img src=icons.telegram>
 				css ml:auto mr:15px o@hover:0.5 cursor:pointer ead:0.5s
 			<img src=icons.twitter>
 				css o@hover:0.5 cursor:pointer ead:0.5s
-		<div.header>
-			<span> "Got "
+		<div.header [mt:5vh]>
+			<span> "Feeling "
 			<span.green> "lost"
 			<span> "?"
 			<br>

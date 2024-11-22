@@ -3,13 +3,17 @@ import {images} from '../assets.imba'
 export tag Rarity
 	<self.block>
 		<div.header>
-			# css h:23vh
-			<span.gray> "Step two: "
-			<br>
-			<span> "Gain "
-			<span.green> "$True "
-			<span> "depending on your "
-			<span.green> "rarity"
+			<span> "THE RARER YOU ARE THE MORE $TRUEs YOU GET"
+			# <span.gray> "Step two: "
+			# <br>
+			# <span> "Gain "
+			# <span.green> "$True "
+			# <br>
+			# <span> "depending"
+			# <br>
+			# <span> "on your "
+			# <br>
+			# <span.green> "rarity"
 		<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
 		<div>
 			css pos:relative max-width:100% aspect-ratio: {images.passport.width / images.passport.height} # bgi:{images.passport.bg} background-size:cover background-repeat: no-repeat max-width:100% aspect-ratio: {images.passport.width / images.passport.height}

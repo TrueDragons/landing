@@ -11,7 +11,7 @@ const gifs =
 	easel: 'assets/easel.gif'
 	artist: 'assets/artist.gif'
 
-export tag Painting
+export tag Friends
 	pos=200
 	vis = {top:false, bot:false}
 	
@@ -32,12 +32,18 @@ export tag Painting
 
 	<self.block>
 		<div.header>
-			<span.gray> "Step one:"
-			<br>
-			<span> "Get "
-			<span.green> " five "
-			<span> "reviews from "
-			<span.green> "your friends"
+			<span> "ONLY FRIENDS TRULY KNOW YOU: COLLECT 5 REVIEWS TO FIND OUT WHO YOU REALLY ARE "
+			# <span.gray> "Step one:"
+			# <br>
+			# <span> "Get "
+			# <span.green> " five "
+			# <br>
+			# <span> "reviews "
+			# <br>
+			# <span> "from "
+			# <span.green> "your"  
+			# <br>
+			# <span.green> "friends"
 		<div.text> "All you need are 5 real friends who know you well. Complete memetic personality test for each other by selecting the PFP mascot attributes that you think best match your friend. NO GUILT. Get your pleasure by pointing out all your friends’ pros and cons…"
 		#	css zi:-1
 		# <img src=video041>
