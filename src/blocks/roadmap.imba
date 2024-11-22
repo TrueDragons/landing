@@ -38,10 +38,10 @@ export tag Roadmap
 			# 	# 	# <source src="assets/straus.mov" type='video/quicktime;codecs=hvc1'>
 			# 	# 	# <source src="assets/movie-hevc.mov" type='video/quicktime'>
 			# 	# 	<source src="assets/straus_1.mov" type='video/quicktime'>
-			# <Snow>
-			# 	css pos:absolute t:4% w:90% l:2% h:100vh
+			# <Snow height=64>
+			# 	css pos:absolute t:16% w:90% l:4% h:20%
 			<Straus>
-				css pos:absolute t:4% w:20vw l:18%
+				css pos:absolute t:4% w:20% l:18%
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
 				css pos:absolute t:1% w:40% r:9%
 			<Tablo states=states name='tablo2' flip=true main="Memetic Test" dates="January-Fabruary 2025">
