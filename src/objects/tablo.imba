@@ -44,12 +44,12 @@ export tag Tablo
 		<div$back>
 			css pos:absolute bgc:#47557A h:29% rdtl:20% rdtr:20% w:100%
 		<div$line> main
-			css pos:absolute l:100% pt:0.6rem d:hflex h:29% w:100% ai:center jc:center ff:"Arcade" fw:800 c:white ta:center
+			css pos:absolute l:100% pt:0.6rem d:hflex h:29% w:100% ai:center jc:center ff:"Arcade" fw:900 c:white ta:center scale-y:1.3
 				fs:2.2rem
 				fs@lt-sm:1.8rem
 				fs@lt-xs:1.2rem
 		<div$date>
-			css pos:absolute t:26% b:64% w:100% bgc:#CA3E2F d:hflex ai:center jc:center c:transparent
+			css pos:absolute t:26% b:64% w:100% bgc:#CA3E2F d:hflex ai:center jc:center c:transparent fw:900
 			<div> dates
 				css ff:"Montserrat" fw:500 ta:center
 					fs:1rem
