@@ -49,7 +49,7 @@ export tag Tablo
 				fs@lt-sm:1.8rem
 				fs@lt-xs:1.2rem
 		<div$date> dates
-			css pos:absolute t:26% h:10% w:100% ff:"Roboto" bgc:#CA3E2F fw:700 c:transparent ta:center
+			css pos:absolute t:26% h:10% w:100% ff:"Montserrat" bgc:#CA3E2F fw:500 c:transparent ta:center
 				fs:1.2rem
 				fs@lt-sm:1rem
 				fs@lt-xs:0.8rem
