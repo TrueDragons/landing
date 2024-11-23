@@ -1,9 +1,9 @@
 
 
 const rndColor = do
-    const base  = Math.random! * 360 | 0
-    const color = (275 * (base / 200 | 0)) + base % 200
-    return "hsl({color}, {(fac || 1) * 100}%, {(fac || 1) * 60}%)"
+	const base  = Math.random! * 360 | 0
+	const color = (275 * (base / 200 | 0)) + base % 200
+	return "hsl({color}, 100%, 60%)"
 
 class Battery
 {

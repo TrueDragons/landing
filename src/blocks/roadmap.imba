@@ -44,13 +44,13 @@ export tag Roadmap
 				css pos:absolute t:4% w:20% l:18%
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
 				css pos:absolute t:1% w:45% r:9%
-			<Tablo states=states name='tablo2' flip=true main="Memetic Test" dates="January-Fabruary 2025">
+			<Tablo states=states name='tablo2' flip=true main="MEME Test" dates="January-Fabruary 2025">
 				css pos:absolute t:14% w:45% l:4% # t:18% w:24.41vw h:24.5vw l:22%
 			<Tablo states=states name='tablo3' main='Big Drop' dates="March-April 2025">
 				css pos:absolute t:32% w:45% r:5% # t:36% w:24.5vw h:24.5vw r:25%
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
 				css pos:absolute t:47% w:45% r:22%
-			<Tablo states=states name='tablo5' flip=true main="Quest Bot IRL" dates="May-June 2025">
+			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
 				css pos:absolute t:83% w:45% l:6%
 			
 

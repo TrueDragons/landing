@@ -42,16 +42,18 @@ export tag Tablo
 
 	<self [of:hidden aspect-ratio: {images.tablo.width / images.tablo.height}]>
 		<div$back>
-			css pos:absolute bgc:#47557A h:29% rdtl:20% rdtr:20% w:100%
-		<div$line> main
-			css pos:absolute l:100% pt:0.6rem d:hflex h:29% w:100% ai:center jc:center ff:"Arcade" fw:900 c:white ta:center scale-y:1.3
-				fs:2.2rem
-				fs@lt-sm:1.8rem
-				fs@lt-xs:1.2rem
+			css pos:absolute ml:1% bgc:#47557A h:29% rdtl:20% rdtr:20% w:98%
+		<div$line> 
+			css pos:absolute ml:auto mr:auto l:100% pt:0.6rem d:hflex h:29% w:98% ai:center jc:center ta:center scale-y:1.3
+			<div> main
+				css ff:"Arcade" fw:600 c:white
+					fs:2.4rem
+					fs@lt-sm:2rem
+					fs@lt-xs:1.4rem
 		<div$date>
-			css pos:absolute t:26% b:64% w:100% bgc:#CA3E2F d:hflex ai:center jc:center c:transparent fw:900
+			css pos:absolute ml:1% t:26% b:64% w:98% bgc:#CA3E2F d:hflex ai:center jc:center c:transparent
 			<div> dates
-				css ff:"Montserrat" fw:500 ta:center
+				css ff:"Montserrat" fw:800 ta:center
 					fs:1rem
 					fs@lt-sm:0.8rem
 					fs@lt-xs:0.6rem
