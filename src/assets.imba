@@ -1,7 +1,7 @@
 export const images = 
 	tablo:
 		url: 'url(./assets/tablo.avif)'
-		width: 459
+		width: 461
 		height: 452
 	passport:
 		url: './assets/passport.avif'

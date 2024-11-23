@@ -27,7 +27,7 @@ tag Snowflake < img
 
 
 export tag Snow
-	generate = 30
+	generate = 100
 	generator = undefined
 	
 	def start
@@ -36,7 +36,7 @@ export tag Snow
 			const form = Math.round(Math.random! * 100) % 5
 			const size = form > 2 ? Math.round(Math.random! * 6 + 3) : Math.round(Math.random! * self.clientWidth / 60 + self.clientWidth / 30)
 			const left = Math.round(Math.random! * self.clientWidth)
-			const duration = Math.round(Math.random! * 3000 + 2000)
+			const duration = Math.round(Math.random! * 6000 + 4000)
 			const finish = Math.round(self.clientHeight * ( 1 - Math.random! / 3))
 			self.appendChild <Snowflake size=size form=form duration=duration finish=finish [l:{left}px]>
 	
