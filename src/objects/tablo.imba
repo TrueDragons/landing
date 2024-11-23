@@ -44,7 +44,7 @@ export tag Tablo
 		<div$back>
 			css pos:absolute bgc:#47557A h:29% rdtl:20% rdtr:20% w:100%
 		<div$line> main
-			css pos:absolute l:100% pt:0.6rem d:hflex h:29% w:100% ai:center jc:center ff:"Arcade" fw:400 c:white ta:center
+			css pos:absolute l:100% pt:0.6rem d:hflex h:29% w:100% ai:center jc:center ff:"Arcade" fw:800 c:white ta:center
 				fs:2.2rem
 				fs@lt-sm:1.8rem
 				fs@lt-xs:1.2rem

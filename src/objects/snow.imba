@@ -27,7 +27,7 @@ tag Snowflake < img
 
 
 export tag Snow
-	generate = 100
+	generate = 70
 	generator = undefined
 	
 	def start
