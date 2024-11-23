@@ -2,7 +2,7 @@ import {svgs} from '../assets.imba'
 
 tag Snowflake < img
 	width
-	duration = Math.round(1000 * Math.random! * 3 + 2)
+	duration = Math.round(1000 * Math.random! * 10 + 5)
 	melting = 1000
 	# form = (Math.random! * 100 % 3 == 0) ? "❄" : "❅"
 	image = svgs.snowflakes[0]
@@ -43,7 +43,7 @@ tag Snowflake < img
 
 
 export tag Snow
-	generate = 20
+	generate = 70
 	generator = undefined
 	
 	def start
