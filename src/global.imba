@@ -1,4 +1,8 @@
 global css
+	@font-face
+		ff: "Arcade"
+		src: url('./assets/arcade.ttf') format("truetype")
+		fs: normal fw: normal
 	html
 		# height: -webkit-fill-available
 		# scroll-margin-bottom: 20vh

@@ -1,19 +1,15 @@
-const icons = {
-	logo: 'assets/logo.svg'
-	telegram: 'assets/telegram.svg'
-	twitter: 'assets/twitter.svg'
-}
+import {svgs} from '../assets.imba'
 
 export tag Hero
 	<self.block [mt:0]>
 		<div>
 			css d:hflex h:32px ai:center mt:15px px:2rem
-			<img src=icons.logo>
+			<img src=svgs.logo>
 				css w:100px
-			<span [ml:20px]> "version 0.0.9"
-			<img src=icons.telegram>
+			<span [ml:20px]> "version 0.1.0"
+			<img src=svgs.telegram>
 				css ml:auto mr:15px o@hover:0.5 cursor:pointer ead:0.5s
-			<img src=icons.twitter>
+			<img src=svgs.twitter>
 				css o@hover:0.5 cursor:pointer ead:0.5s
 		<div.header [mt:5vh]>
 			<span> "Feeling "

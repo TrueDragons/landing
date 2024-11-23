@@ -44,15 +44,15 @@ export tag Tablo
 		<div$back>
 			css pos:absolute bgc:#47557A h:29% rdtl:20% rdtr:20% w:100%
 		<div$line> main
-			css pos:absolute l:100% pt:0.4rem d:hflex h:29% w:100% ai:center jc:center ff:"Jersey 20" fw:400 c:white ta:center
+			css pos:absolute l:100% pt:0.6rem d:hflex h:29% w:100% ai:center jc:center ff:"Arcade" fw:600 c:white ta:center
 				fs:2.2rem
 				fs@lt-sm:1.8rem
 				fs@lt-xs:1.2rem
 		<div$date> dates
-			css pos:absolute t:28% h:9% w:100% ff:"Roboto" bgc:#CA3E2F fw:700 c:transparent ta:center
-				fs:0.8rem
-				fs@lt-sm:0.6rem
-				fs@lt-xs:0.4rem
+			css pos:absolute t:26% h:10% w:100% ff:"Roboto" bgc:#CA3E2F fw:700 c:transparent ta:center
+				fs:1.2rem
+				fs@lt-sm:1rem
+				fs@lt-xs:0.8rem
 		<div [scale-x:-1]=flip>
 			css pos:absolute bgi:{images.tablo.url} bgs:cover w:100% aspect-ratio: {images.tablo.width / images.tablo.height}
 

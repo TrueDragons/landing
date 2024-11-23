@@ -30,3 +30,15 @@ export const images =
 		url: './assets/straus_wing.avif'
 		width: 257
 		height: 249
+	
+export const svgs = 	
+	logo: './assets/svg/logo.svg'
+	telegram: './assets/svg/telegram.svg'
+	twitter: './assets/svg/twitter.svg'
+	snowflakes: [
+		'./assets/svg/snowflake1.svg'
+		'./assets/svg/snowflake2.svg'
+		'./assets/svg/snowflake3.svg'
+		'./assets/svg/snowflake4.svg'
+		'./assets/svg/snowflake5.svg'
+	]
