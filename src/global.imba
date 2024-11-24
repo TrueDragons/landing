@@ -1,8 +1,17 @@
 global css
-	@font-face
-		ff: "Arcade"
-		src: url('./assets/arcade.ttf') format("truetype")
-		fs: normal fw: normal
+	# @font-face
+	# 	ff: "Arcade"
+	# 	src: url('./assets/fonts/arcade.ttf') format("truetype")
+	# 	fs: normal fw: normal
+	# @font-face
+	# 	ff: "Montserrat"
+	# 	src: url('./assets/fonts/montserrat.woff2') format("woff2")
+	# 	fs: normal fw: normal
+	# @font-face
+	# 	ff: "Sigmar One"
+	# 	src: url('./assets/fonts/sigmarone.woff2') format("woff2")
+	# 	fs: normal fw: normal
+
 	html
 		# height: -webkit-fill-available
 		# scroll-margin-bottom: 20vh

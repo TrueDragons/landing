@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Arcade";
+	src: url('arcade.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('montserrat.woff2') format("woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Sigmar One";
+    src: url('sigmarone.woff2') format("woff2");
+    font-weight: normal;
+}

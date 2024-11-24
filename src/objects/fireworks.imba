@@ -91,11 +91,9 @@ export tag Fireworks < canvas
 		if states and states.listen isa Function
 			states.listen 'fireworks', do(state) 
 				if state == 'on' and !active
-					console.log 'start'
 					active = true
 					fire!
 				elif state == 'off' and active
-					console.log 'stop'
 					active = false
 
 		fire!

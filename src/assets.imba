@@ -47,8 +47,8 @@ export const videos =
 	painter: 
 		url: './assets/video/painter.mp4'
 		type: 'video/mp4'
-		width: 1080
-		height: 924
+		width: 400
+		height: 400
 	buttons:
 		url: './assets/video/buttons.mp4'
 		type: 'video/mp4'
