@@ -3,7 +3,7 @@ import {images} from '../assets.imba'
 export tag Slider
 	<self.block>
 		<div.header>
-			<span> "Gain insights by seeing yourself from a completely new perspective"
+			<span> "FIND OUT THE MEMES THAT EXPRESS YOU"
 			# <span.gray> "Step two: "
 			# <br>
 			# <span> "Gain "

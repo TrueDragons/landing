@@ -1,4 +1,6 @@
 import {images} from '../assets.imba'
+import {Video} from '../objects/video.imba'
+import {videos} from '../assets.imba'
 
 export tag Hold
 	css 
@@ -19,7 +21,7 @@ export tag Hold
 
 	<self.block>
 		<div.header>
-			<span> "BEING A TRUE DRAGON MEANS TO KEEP YOUR $TRUEs"
+			<span> "KEEP YOUR $TRUES, AND LIFE-CHANGING TREASURE IS YOURS"
 			# <span.gray> "Step three:" 
 			# <br>
 			# <span> "Be like a "
@@ -39,6 +41,7 @@ export tag Hold
 				css pos:relative zi:1 max-width:25% h:auto w:auto d:block mt:3rem
 			<img.swing2 src=images.poster2.url loading="lazy" decoding="asynchronous" width="{images.poster2.width}" height="{images.poster2.height}">
 				css pos:relative zi:1 max-width:25% h:auto w:auto d:block mt:3rem ml:5rem
-		<video.video playsInline loop autoplay muted>
-			css aspect-ratio:1.1
-			<source src='assets/video/polygraph.mp4' type="video/mp4">
+		<Video file=videos.polygraph>
+		# <video.video playsInline loop autoplay muted>
+		# 	css aspect-ratio:1.1
+		# 	<source src='assets/video/polygraph.mp4' type="video/mp4">

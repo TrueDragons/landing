@@ -77,5 +77,3 @@ global css
 		# mr: 50px ml:50px
 		# ml:10vw mr:10vw
 		# py:3vh
-	.video
-		o:0.99 object-fit:cover w:100% h:100% mt:5% # mt:30px # max-width:600px 

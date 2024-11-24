@@ -42,3 +42,26 @@ export const svgs =
 		'./assets/svg/snowflake4.svg'
 		'./assets/svg/snowflake5.svg'
 	]
+
+export const videos = 
+	painter: 
+		url: './assets/video/painter.mp4'
+		type: 'video/mp4'
+		width: 1080
+		height: 924
+	buttons:
+		url: './assets/video/buttons.mp4'
+		type: 'video/mp4'
+		width: 1080
+		height: 1330
+	overview:
+		url: './assets/video/overview.mp4'
+		type: 'video/mp4'
+		width: 1080
+		height: 1328
+	polygraph:
+		url: './assets/video/polygraph.mp4'
+		type: 'video/mp4'
+		width: 1080
+		height: 924
+

@@ -7,6 +7,7 @@ import {Straus} from '../objects/straus.imba'
 import {Tablo} from '../objects/tablo.imba'
 
 import {Snow} from '../objects/snow.imba'
+import {Fireworks} from '../objects/fireworks.imba'
 
 export tag Roadmap
 	<self.block>
@@ -42,6 +43,8 @@ export tag Roadmap
 				css pos:absolute t:32% w:90% l:4% h:24% # zi:1
 			<Straus>
 				css pos:absolute t:4% w:20% l:18%
+			<Fireworks states=states>
+				css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
 				css pos:absolute t:1% w:45% r:9%
 			<Tablo states=states name='tablo2' flip=true main="MEME Test" dates="January-Fabruary 2025">
@@ -89,6 +92,7 @@ tag Path
 			states.change('tablo3', done >= 35 ? 'on' : 'off')
 			states.change('tablo4', done >= 50 ? 'on' : 'off')
 			states.change('tablo5', done >= 90 ? 'on' : 'off')
+			states.change('fireworks', done >= 30 and done <= 60 ? 'on' : 'off')
 
 	<self>
 		<svg viewBox="0 0 259.2 1153.2" xmlns="http://www.w3.org/2000/svg">

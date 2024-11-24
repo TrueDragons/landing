@@ -3,7 +3,7 @@ import {images} from '../assets.imba'
 export tag Rarity
 	<self.block>
 		<div.header>
-			<span> "THE RARER YOU ARE THE MORE $TRUEs YOU GET"
+			<span> "GET $TRUE! AS MUCH AS RARE YOUR PERSONALITY IS…"
 			# <span.gray> "Step two: "
 			# <br>
 			# <span> "Gain "
