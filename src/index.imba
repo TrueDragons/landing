@@ -22,6 +22,8 @@ import {Roadmap} from './blocks/roadmap.imba'
 import {Future} from './blocks/future.imba'
 
 import {Fireworks} from './objects/fireworks.imba'
+import {videos} from './assets.imba'
+
 
 tag App
 	
@@ -39,6 +41,7 @@ tag App
 
 	<self>
 		<Hero>
+		
 		<Buttons>
 		<Steps>
 		<Friends>

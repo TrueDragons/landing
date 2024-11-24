@@ -1,4 +1,5 @@
 import {images} from '../assets.imba'
+import {videos} from '../assets.imba'
 
 import {States} from '../states.imba'
 let states = new States!
@@ -8,6 +9,7 @@ import {Tablo} from '../objects/tablo.imba'
 
 import {Snow} from '../objects/snow.imba'
 import {Fireworks} from '../objects/fireworks.imba'
+import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
 	<self.block>
@@ -40,9 +42,11 @@ export tag Roadmap
 			# 	# 	# <source src="assets/movie-hevc.mov" type='video/quicktime'>
 			# 	# 	<source src="assets/straus_1.mov" type='video/quicktime'>
 			<Snow>
-				css pos:absolute t:32% w:90% l:4% h:24% # zi:1
+				css pos:absolute t:32% w:90% l:4% h:24% zi:1
 			<Straus>
 				css pos:absolute t:4% w:20% l:18%
+			<Animation file=videos.snegovik r=20 g=255 b=13>
+				css pos:absolute zi:0 w:20% t:38% l:8%
 			<Fireworks states=states>
 				css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">

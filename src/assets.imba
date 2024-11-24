@@ -64,4 +64,9 @@ export const videos =
 		type: 'video/mp4'
 		width: 1080
 		height: 924
+	snegovik:
+		url: './assets/video/snegovik.mp4'
+		type: 'video/mp4'
+		width: 300
+		height: 300
 
