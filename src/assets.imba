@@ -21,7 +21,9 @@ export const images =
 		width: 779
 		height: 958
 	map:
-		url: './assets/map.avif'
+		url: './assets/image/map.avif'
+		width: 600
+		height: 2532
 	straus_body:
 		url: './assets/image/straus_body.avif'
 		width: 257

@@ -31,8 +31,11 @@ export tag Roadmap
 			css pos:relative mt:30px
 			# <img src=map_frame [bgi:{`url("{map_back}")`}]>
 			# 	css w:90vw
-			<Path [bgi:{`url("{images.map.url}")`}]>
-				css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
+			<img src=images.map.url loading="lazy" decoding="asynchronous" width="{images.map.width}" height="{images.map.height}">
+				css w:100% h:auto zi:-1 # pos:absolute l:0 t:0
+			<Path> # [bgi:{`url("{images.map.url}")`}] 
+				css pos:absolute  l:0 t:0 w:100% h:100%
+			# 	css bgp:center center bgr:no-repeat bgo:content-box bgs: 100% 100%
 			# <div>
 			# 	css pos:absolute t:5% l:20% w:20%
 			# 	# <Straus>
@@ -71,7 +74,7 @@ export tag Roadmap
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
 				css pos:absolute t:47% w:45% r:22% zi:2
 			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
-				css pos:absolute t:83% w:45% l:6%
+				css pos:absolute t:82.5% w:45% l:7%
 			
 
 
@@ -117,4 +120,5 @@ tag Path
 
 	<self>
 		<svg viewBox="0 0 259.2 1153.2" xmlns="http://www.w3.org/2000/svg">
+			css h:100%
 			<path$path stroke="#DA1B00" pathLength="100" stroke-width="8px" fill="none" d="m 36.3 12 c 0 0 -2 21.5 23.8 30.7 s 59.8 3.5 99.3 20.3 s 37.3 51 34 62 s -17 34.3 -54 46.3 s -77.4 14.7 -91.4 43 c 0 0 -10.5 20 0.5 36 s 47.8 41.5 58.5 48.7 s 43.3 26.8 56.3 63.8 s -11.5 66.8 -11.5 66.8 s -13.9 19 -41.3 32.8 c -29.2 14.6 -59.5 27.9 -69.5 65.6 s 7 64.3 24.3 87.5 s 31.5 35.5 53 73 c 22.5 39.3 13.3 47.8 7.8 58 c -3.7 6.8 -23.8 21.5 -26.3 38 s 4 29 34 40 s 51.7 12.1 77.8 33.3 c 28 22.8 24.8 46.3 21.5 58.3 c -4 14.8 -25.3 31.5 -42.3 40.8 s -28.9 13.2 -60.8 27.1 c -37.8 16.5 -56 39.3 -55.8 78.5">
