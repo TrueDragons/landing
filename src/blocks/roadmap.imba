@@ -5,10 +5,12 @@ import {States} from '../states.imba'
 let states = new States!
 
 import {Straus} from '../objects/straus.imba'
+import {Snowman} from '../objects/snowman.imba'
 import {Tablo} from '../objects/tablo.imba'
 
 import {Snow} from '../objects/snow.imba'
 import {Fireworks} from '../objects/fireworks.imba'
+import {Garland} from '../objects/garland.imba'
 import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
@@ -41,12 +43,14 @@ export tag Roadmap
 			# 	# 	# <source src="assets/straus.mov" type='video/quicktime;codecs=hvc1'>
 			# 	# 	# <source src="assets/movie-hevc.mov" type='video/quicktime'>
 			# 	# 	<source src="assets/straus_1.mov" type='video/quicktime'>
+			
 			<Snow>
 				css pos:absolute t:32% w:90% l:4% h:24% zi:1
 			<Straus>
 				css pos:absolute t:4% w:20% l:18%
-			<Animation file=videos.snegovik r=20 g=255 b=13>
-				css pos:absolute zi:0 w:20% t:38% l:8%
+			# <Animation file=videos.snowman r=20 g=255 b=13>
+			<Snowman>
+				css pos:absolute zi:0 w:10% t:38% l:5%
 			<Fireworks states=states>
 				css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
@@ -55,8 +59,14 @@ export tag Roadmap
 				css pos:absolute t:14% w:45% l:4% # t:18% w:24.41vw h:24.5vw l:22%
 			<Tablo states=states name='tablo3' main='Big Drop' dates="March-April 2025">
 				css pos:absolute t:32% w:45% r:5% # t:36% w:24.5vw h:24.5vw r:25%
+			<img src=images.gifts.url loading="lazy" decoding="asynchronous" width="{images.gifts.width}" height="{images.gifts.height}">
+				css pos:absolute t:38% w:45% r:3% h:auto 
+			<img src=images.festoon.url loading="lazy" decoding="asynchronous" width="{images.festoon.width}" height="{images.festoon.height}">
+				css pos:absolute t:31.6% w:9% r:22.8% h:auto 
+			<Garland states=states>
+				css pos:absolute t:31.4% w:43% r:6% h:auto 
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
-				css pos:absolute t:47% w:45% r:22%
+				css pos:absolute t:47% w:45% r:22% zi:2
 			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
 				css pos:absolute t:83% w:45% l:6%
 			
@@ -97,6 +107,8 @@ tag Path
 			states.change('tablo4', done >= 50 ? 'on' : 'off')
 			states.change('tablo5', done >= 90 ? 'on' : 'off')
 			states.change('fireworks', done >= 30 and done <= 60 ? 'on' : 'off')
+			states.change('garland', done >= 35 ? 'on' : 'off')
+			
 
 	<self>
 		<svg viewBox="0 0 259.2 1153.2" xmlns="http://www.w3.org/2000/svg">

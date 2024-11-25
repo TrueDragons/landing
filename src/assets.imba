@@ -30,6 +30,26 @@ export const images =
 		url: './assets/straus_wing.avif'
 		width: 257
 		height: 249
+	snowman:
+		url: './assets/image/snowman.avif'
+		width: 85
+		height: 123
+	snowdrift:
+		url: './assets/image/snowdrift.avif'
+		width: 47
+		height: 25
+	gifts:
+		url: './assets/image/gifts.avif'
+		width: 300
+		height: 140
+	festoon:
+		url: './assets/image/festoon.avif'
+		width: 98
+		height: 497
+	garland:
+		url: './assets/image/garland.avif'
+		width: 300
+		height: 67
 	
 export const svgs = 	
 	logo: './assets/svg/logo.svg'
@@ -64,9 +84,9 @@ export const videos =
 		type: 'video/mp4'
 		width: 1080
 		height: 924
-	snegovik:
-		url: './assets/video/snegovik.mp4'
+	snowman:
+		url: './assets/video/snowman.mp4'
 		type: 'video/mp4'
-		width: 300
-		height: 300
+		width: 126
+		height: 132
 
