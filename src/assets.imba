@@ -23,11 +23,11 @@ export const images =
 	map:
 		url: './assets/map.avif'
 	straus_body:
-		url: './assets/straus_body.avif'
+		url: './assets/image/straus_body.avif'
 		width: 257
 		height: 249
 	straus_wing: 
-		url: './assets/straus_wing.avif'
+		url: './assets/image/straus_wing.avif'
 		width: 257
 		height: 249
 	snowman:
@@ -50,6 +50,22 @@ export const images =
 		url: './assets/image/garland.avif'
 		width: 300
 		height: 67
+	start:
+		url: './assets/image/start.avif'
+		width: 345
+		height: 189
+	flag_l:
+		url: './assets/image/flag_l.avif'
+		width: 126
+		height: 134
+	flag_r:
+		url: './assets/image/flag_r.avif'
+		width: 124
+		height: 134
+	map_cover:
+		url: './assets/image/map_cover.avif'
+		width: 191
+		height: 169
 	
 export const svgs = 	
 	logo: './assets/svg/logo.svg'

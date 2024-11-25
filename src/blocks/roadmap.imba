@@ -11,6 +11,7 @@ import {Tablo} from '../objects/tablo.imba'
 import {Snow} from '../objects/snow.imba'
 import {Fireworks} from '../objects/fireworks.imba'
 import {Garland} from '../objects/garland.imba'
+import {Start} from '../objects/start.imba'
 import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
@@ -65,6 +66,8 @@ export tag Roadmap
 				css pos:absolute t:31.6% w:9% r:22.8% h:auto 
 			<Garland states=states>
 				css pos:absolute t:31.4% w:43% r:6% h:auto 
+			<Start states=states>
+				css pos:absolute t:55% w:33% r:48% h:auto 
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
 				css pos:absolute t:47% w:45% r:22% zi:2
 			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
@@ -108,6 +111,8 @@ tag Path
 			states.change('tablo5', done >= 90 ? 'on' : 'off')
 			states.change('fireworks', done >= 30 and done <= 60 ? 'on' : 'off')
 			states.change('garland', done >= 35 ? 'on' : 'off')
+			states.change('start', done >= 60 ? 'on' : 'off')
+			
 			
 
 	<self>

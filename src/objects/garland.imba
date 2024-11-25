@@ -116,12 +116,13 @@ export tag Garland
 		
 		# for lamp in top
 
-	def effect
+	def effect name = ''
 		if !active
 			light(false)
 			return 
 
-		const name = effects[Math.floor(Math.random! * effects.length)]
+		if !name then name = effects[Math.floor(Math.random! * effects.length)]
+		
 		if name is 'blink'
 			await blink(0)
 		elif name is 'runl'
@@ -141,7 +142,7 @@ export tag Garland
 			states.listen 'garland', do(state) 
 				if state == 'on' and !active
 					active = true
-					effect!
+					effect('blink')
 				elif state == 'off' and active
 					active = false
 
