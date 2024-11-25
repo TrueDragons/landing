@@ -31,11 +31,11 @@ export tag Roadmap
 			css pos:relative mt:30px
 			# <img src=map_frame [bgi:{`url("{map_back}")`}]>
 			# 	css w:90vw
-			# <img src=images.map.url loading="lazy" decoding="asynchronous" width="{images.map.width}" height="{images.map.height}">
-			# 	css w:100% h:auto zi:-1 # pos:absolute l:0 t:0
-			<Path [bgi:{`url("{images.map.url}")`} aspect-ratio:{images.map.width / images.map.height}]>
-				# css pos:absolute  l:0 t:0 w:100% h:100%
-				css bgp:center center bgr:no-repeat bgo:content-box bgs: contain # 100% 100%
+			<img src=images.map.url loading="lazy" decoding="asynchronous" width="{images.map.width}" height="{images.map.height}">
+				css w:100% h:auto zi:-1 # pos:absolute l:0 t:0
+			<Path> # [bgi:{`url("{images.map.url}")`} aspect-ratio:{images.map.width / images.map.height}]>
+				css pos:absolute  l:0 t:0 w:100% h:100%
+				# css bgp:center center bgr:no-repeat bgo:content-box bgs: contain scale-y:105% # 100% 100%
 			# <div>
 			# 	css pos:absolute t:5% l:20% w:20%
 			# 	# <Straus>
