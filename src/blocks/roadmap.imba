@@ -12,6 +12,7 @@ import {Snow} from '../objects/snow.imba'
 import {Firework} from '../objects/fireworks.imba'
 import {Garland} from '../objects/garland.imba'
 import {Start} from '../objects/start.imba'
+import {Catowl} from '../objects/catowl.imba'
 import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
@@ -52,11 +53,13 @@ export tag Roadmap
 				css pos:absolute t:32% w:90% l:4% h:24% zi:1
 			<Straus>
 				css pos:absolute t:4% w:20% l:18%
+			<Catowl states=states>
+				css pos:absolute w:12% zi:3
 			# <Animation file=videos.snowman r=20 g=255 b=13>
 			<Snowman>
 				css pos:absolute zi:0 w:10% t:38% l:5%
 			<Firework> # states=states>
-				css pos:absolute t:62% w:100% l:0% aspect-ratio: 2.6
+				css pos:absolute t:62% w:100% l:0% h:300px # aspect-ratio: 0.5
 			# <Fireworks states=states>
 			# 	css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
@@ -112,12 +115,19 @@ tag Path
 			states.change('tablo1', done >= 1 ? 'on' : 'off')
 			states.change('tablo2', done >= 20 ? 'on' : 'off')
 			states.change('tablo3', done >= 35 ? 'on' : 'off')
+			states.change('garland', done >= 35 ? 'on' : 'off')
 			states.change('tablo4', done >= 50 ? 'on' : 'off')
 			states.change('tablo5', done >= 90 ? 'on' : 'off')
 			states.change('fireworks', done >= 30 and done <= 60 ? 'on' : 'off')
-			states.change('garland', done >= 35 ? 'on' : 'off')
 			states.change('start', done >= 60 ? 'on' : 'off')
-			
+			if done > 50
+				states.change('catowl', 5)
+			elif done > 35
+				states.change('catowl', 4)
+			elif done > 20
+				states.change('catowl', 3)
+			else
+				states.change('catowl', 2)
 			
 
 	<self>

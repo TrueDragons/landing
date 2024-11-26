@@ -68,23 +68,23 @@ export const images =
 		url: './assets/image/map_cover.avif'
 		width: 191
 		height: 169
+	catowl_body:
+		url: './assets/image/catowl_body.avif'
+		width: 124
+		height: 161
+	catowl_lwing:
+		url: './assets/image/catowl_lwing.avif'
+		width: 124
+		height: 161
+	catowl_rwing:
+		url: './assets/image/catowl_rwing.avif'
+		width: 124
+		height: 161
 	
 export const svgs = 	
 	logo: './assets/svg/logo.svg'
 	telegram: './assets/svg/telegram.svg'
 	twitter: './assets/svg/twitter.svg'
-	snowflakes: [
-		'./assets/svg/snowflake1.svg'
-		'./assets/svg/snowflake2.svg'
-		'./assets/svg/snowflake3.svg'
-		'./assets/svg/snowflake4.svg'
-		'./assets/svg/snowflake5.svg'
-	]
-	snowflake1: './assets/svg/snowflake1.svg'
-	snowflake2: './assets/svg/snowflake2.svg'
-	snowflake3: './assets/svg/snowflake3.svg'
-	snowflake4: './assets/svg/snowflake4.svg'
-	snowflake5: './assets/svg/snowflake5.svg'
 
 export const videos = 
 	painter: 
