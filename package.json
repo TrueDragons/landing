@@ -13,5 +13,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fireworks-js": "^2.10.8"
   }
 }

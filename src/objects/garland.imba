@@ -27,7 +27,7 @@ tag Flash
 			animation: blink 1000ms linear forwards
 			@keyframes
 				blink
-					0% o:1
+					30% o:0
 					50% o:1
 					52% o:0
 					70% o:1
@@ -60,13 +60,11 @@ tag Flash
 
 export tag Garland
 	lamps = []
-	top = []
-	bot = []
-	effects = ['blink', 'blink', 'runl', 'runr']
+	effects = ['blink', 'majorblink', 'runner1', 'runner2']
 	states
 	active = false
 	
-	def light on = true
+	def lights on = true
 		let promises = []
 		if on
 			for lamp, idx in lamps
@@ -78,8 +76,8 @@ export tag Garland
 	
 	def blink count = 0
 		if count == 0
-			light(true)
-			blink(count + 1)
+			await lights(true)
+			await blink(count + 1)
 		elif count < 3
 			let promises = []
 			promises.push lamps[Math.floor(Math.random! * lamps.length)].blink!
@@ -90,47 +88,43 @@ export tag Garland
 			await timeout(200 * Math.random!)
 			promises.push lamps[Math.floor(Math.random! * lamps.length)].blink!
 			await Promise.all(promises)	
-			blink(count + 1)
+			await blink(count + 1)
 
-	def runl count = 0
-		if count == 0
-			await light(false)
-			await runl(count + 1)
+	def runner count = -1, forward = true
+		if count == -1
+			await lights(false)
+			await runner(count + 1, forward)
 		elif count < 24
-			lamps[count].on!
-			await timeout(100)
-			setTimeout(&, 100) do lamps[count].off!
-			await runl(count + 1)
-		return true
-	
-	def runr count = 0
-		if count == 0
-			await light(false)
-			await runr(count + 1)
-		elif count < 24
-			lamps[lamps.length - count].on!
-			await timeout(100)
-			setTimeout(&, 100) do lamps[lamps.length - count].off!
-			await runr(count + 1)
-		return true
-		
-		# for lamp in top
+			const current = forward ? count : lamps.length - count - 1
+			lamps[current].on!
+			setTimeout(&, 200) do lamps[current].off!
+			await timeout(20)
+			await runner(count + 1, forward)
+
+	def majorblink
+		await lights(false)
+		await timeout(10 * Math.random!)
+		await lights(true)
+		await timeout(20 * Math.random!)
+		await lights(false)
 
 	def effect name = ''
 		if !active
-			light(false)
+			lights(false)
 			return 
 
 		if !name then name = effects[Math.floor(Math.random! * effects.length)]
 		
 		if name is 'blink'
-			await blink(0)
-		elif name is 'runl'
-			await runl(0)
-		elif name is 'runr'
-			await runr(0)
+			await blink!
+		elif name is 'runner1'
+			await runner(-1,true)
+		elif name is 'runner2'
+			await runner(-1,false)
+		elif name is 'majorblink'
+			await majorblink!
 		
-		await timeout(100)
+		await timeout(500)
 		effect!
 
 	def mount

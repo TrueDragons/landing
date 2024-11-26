@@ -80,6 +80,11 @@ export const svgs =
 		'./assets/svg/snowflake4.svg'
 		'./assets/svg/snowflake5.svg'
 	]
+	snowflake1: './assets/svg/snowflake1.svg'
+	snowflake2: './assets/svg/snowflake2.svg'
+	snowflake3: './assets/svg/snowflake3.svg'
+	snowflake4: './assets/svg/snowflake4.svg'
+	snowflake5: './assets/svg/snowflake5.svg'
 
 export const videos = 
 	painter: 

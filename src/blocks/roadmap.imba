@@ -9,7 +9,7 @@ import {Snowman} from '../objects/snowman.imba'
 import {Tablo} from '../objects/tablo.imba'
 
 import {Snow} from '../objects/snow.imba'
-import {Fireworks} from '../objects/fireworks.imba'
+import {Firework} from '../objects/fireworks.imba'
 import {Garland} from '../objects/garland.imba'
 import {Start} from '../objects/start.imba'
 import {Animation} from '../objects/animation.imba'
@@ -34,7 +34,7 @@ export tag Roadmap
 			<img src=images.map.url loading="lazy" decoding="asynchronous" width="{images.map.width}" height="{images.map.height}">
 				css w:100% h:auto zi:-1 # pos:absolute l:0 t:0
 			<Path> # [bgi:{`url("{images.map.url}")`} aspect-ratio:{images.map.width / images.map.height}]>
-				css pos:absolute  l:0 t:0.5% w:100% h:100% zi:0
+				css pos:absolute  l:0 t:0% w:100% h:100% zi:0
 				# css bgp:center center bgr:no-repeat bgo:content-box bgs: contain scale-y:105% # 100% 100%
 			# <div>
 			# 	css pos:absolute t:5% l:20% w:20%
@@ -55,8 +55,10 @@ export tag Roadmap
 			# <Animation file=videos.snowman r=20 g=255 b=13>
 			<Snowman>
 				css pos:absolute zi:0 w:10% t:38% l:5%
-			<Fireworks states=states>
-				css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
+			<Firework> # states=states>
+				css pos:absolute t:62% w:100% l:0% aspect-ratio: 2.6
+			# <Fireworks states=states>
+			# 	css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
 				css pos:absolute t:1% w:45% r:9%
 			<Tablo states=states name='tablo2' flip=true main="MEME Test" dates="January-Fabruary 2025">
