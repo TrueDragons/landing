@@ -78,12 +78,11 @@ tag Snowflake
 
 			
 export tag Snow
-	generate = 70
 	generator = undefined
 	
 	def start
 		return if generator
-		generator = setInterval(&, generate) do
+		generator = setInterval(&, 70) do
 			self.appendChild <Snowflake width=self.clientWidth form=(Math.round(Math.random! * 100) % 5)>
 	
 	def stop

@@ -16,6 +16,7 @@ import {Catowl} from '../objects/catowl.imba'
 import {Finish} from '../objects/finish.imba'
 import {Confetti} from '../objects/confetti.imba'
 import {Bird} from '../objects/bird.imba'
+import {Leaves} from '../objects/leaves.imba'
 import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
@@ -56,6 +57,8 @@ export tag Roadmap
 				css pos:absolute t:32% w:90% l:4% h:24% zi:1
 			<Straus>
 				css pos:absolute t:4% w:20% l:18%
+			<Leaves>
+				css pos:absolute t:4% w:100% l:0
 			<Catowl states=states>
 				css pos:absolute w:12% zi:3
 			<Bird>

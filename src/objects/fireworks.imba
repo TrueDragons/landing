@@ -7,17 +7,17 @@ export tag Firework
 
 	def setup
 		const options =
-			friction: 0.94
+			friction: 0.93
 			gravity: 0
-			explosion: 8
-			particles: 100
+			explosion: 6
+			particles: 20
 			lineWidth:
 				explosion:
 					min: 5
 					max: 10
 				trace:
-					min: 1
-					max: 2
+					min: 0
+					max: 0.16
 			# decay:
 			# 	min: 0.02
 			# 	max: 0.05
