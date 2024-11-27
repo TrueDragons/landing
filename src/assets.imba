@@ -80,6 +80,58 @@ export const images =
 		url: './assets/image/catowl_rwing.avif'
 		width: 124
 		height: 161
+	finish_right_stick:
+		url: './assets/image/finish_right_stick.avif'
+		width: 16
+		height: 191
+	finish_left_stick:
+		url: './assets/image/finish_left_stick.avif'
+		width: 15
+		height: 181
+	finish_right:
+		url: './assets/image/finish_right.avif'
+		width: 205
+		height: 74
+	finish_left:
+		url: './assets/image/finish_left.avif'
+		width: 127
+		height: 151
+	finish_right_tail:
+		url: './assets/image/finish_right_tail.avif'
+		width: 71
+		height: 174
+	finish_left_tail:
+		url: './assets/image/finish_left_tail.avif'
+		width: 32
+		height: 141
+	confetti1:
+		url: './assets/image/confetti1.avif'
+		width: 144
+		height: 144
+	confetti2:
+		url: './assets/image/confetti2.avif'
+		width: 144
+		height: 144
+	bird_body:
+		url: './assets/image/bird_body.avif'
+		width: 167
+		height: 80
+	bird_right_hand:
+		url: './assets/image/bird_right_hand.avif'
+		width: 167
+		height: 80
+	bird_right_leg:
+		url: './assets/image/bird_right_leg.avif'
+		width: 167
+		height: 80
+	bird_left_hand:
+		url: './assets/image/bird_left_hand.avif'
+		width: 167
+		height: 80
+	bird_left_leg:
+		url: './assets/image/bird_left_leg.avif'
+		width: 167
+		height: 80
 	
 export const svgs = 	
 	logo: './assets/svg/logo.svg'

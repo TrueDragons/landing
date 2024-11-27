@@ -13,6 +13,9 @@ import {Firework} from '../objects/fireworks.imba'
 import {Garland} from '../objects/garland.imba'
 import {Start} from '../objects/start.imba'
 import {Catowl} from '../objects/catowl.imba'
+import {Finish} from '../objects/finish.imba'
+import {Confetti} from '../objects/confetti.imba'
+import {Bird} from '../objects/bird.imba'
 import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
@@ -55,11 +58,13 @@ export tag Roadmap
 				css pos:absolute t:4% w:20% l:18%
 			<Catowl states=states>
 				css pos:absolute w:12% zi:3
+			<Bird>
+				css pos:absolute t:12% w:100% zi:0
 			# <Animation file=videos.snowman r=20 g=255 b=13>
 			<Snowman>
 				css pos:absolute zi:0 w:10% t:38% l:5%
-			<Firework> # states=states>
-				css pos:absolute t:62% w:100% l:0% h:300px # aspect-ratio: 0.5
+			<Firework states=states> # states=states>
+				css pos:absolute t:30% w:100% l:0% h:600px zi:2 # aspect-ratio: 0.5
 			# <Fireworks states=states>
 			# 	css pos:absolute t:32% w:100% l:0% aspect-ratio: 2.6
 			<Tablo states=states name='tablo1' main='Early Birds' dates="November-December 2024">
@@ -76,6 +81,10 @@ export tag Roadmap
 				css pos:absolute t:31.4% w:43% r:6% h:auto 
 			<Start states=states>
 				css pos:absolute t:55% w:33% r:48% h:auto 
+			<Finish states=states>
+				css pos:absolute t:78% w:33% r:18% h:auto
+			<Confetti states=states>
+				css pos:absolute t:68% w:50% l:38% h:auto
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
 				css pos:absolute t:47% w:45% r:22% zi:2
 			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
@@ -116,9 +125,10 @@ tag Path
 			states.change('tablo2', done >= 20 ? 'on' : 'off')
 			states.change('tablo3', done >= 35 ? 'on' : 'off')
 			states.change('garland', done >= 35 ? 'on' : 'off')
+			states.change('fireworks', done >= 35 ? 'on' : 'off')
 			states.change('tablo4', done >= 50 ? 'on' : 'off')
 			states.change('tablo5', done >= 90 ? 'on' : 'off')
-			states.change('fireworks', done >= 30 and done <= 60 ? 'on' : 'off')
+			# states.change('fireworks', done >= 34 and done <= 60 ? 'on' : 'off')
 			states.change('start', done >= 60 ? 'on' : 'off')
 			if done > 50
 				states.change('catowl', 5)
@@ -128,6 +138,15 @@ tag Path
 				states.change('catowl', 3)
 			else
 				states.change('catowl', 2)
+
+			if done >= 90
+				states.change('finish', 'on')
+			elif done <= 50
+				states.change('finish', 'off')
+			if done >= 90
+				states.change('confetti', 'on')
+			elif done <= 50
+				states.change('confetti', 'off')
 			
 
 	<self>

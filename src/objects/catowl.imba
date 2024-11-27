@@ -14,7 +14,7 @@ export tag Catowl
 			animation: tablo2 2s linear forwards origin: 100% 50%
 			@keyframes
 				tablo2
-					0%   t:-2% l:68% transform: scaleY(1)
+					0%   t:-2% l:68% transform: scaleY(1) 
 					10%  t:-2% l:68% transform: scaleY(1.1)
 					90%	 t:11% l:14% transform: scaleY(1.1)
 					100% t:11% l:14% transform: scaleY(1)
@@ -22,10 +22,10 @@ export tag Catowl
 			animation: tablo3 2s linear forwards origin: 100% 50%
 			@keyframes
 				tablo3
-					0%   t:11% l:14% transform: scaleY(1)
-					10%  t:11% l:14% transform: scaleY(1.1)
-					90%	 t:29% l:46% transform: scaleY(1.1)
-					100% t:29% l:46% transform: scaleY(1)
+					0%   t:11% l:14% transform: scaleY(1)   scaleX(-1)
+					10%  t:11% l:14% transform: scaleY(1.1) scaleX(-1)
+					90%	 t:29% l:46% transform: scaleY(1.1) scaleX(-1)
+					100% t:29% l:46% transform: scaleY(1)   scaleX(-1)
 		&.tablo4
 			animation: tablo4 2s linear forwards origin: 100% 50%
 			@keyframes
