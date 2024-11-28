@@ -24,6 +24,42 @@ import {Future} from './blocks/future.imba'
 # import {Fireworks} from './objects/fireworks.imba'
 import {videos} from './assets.imba'
 
+import {lax} from './common.imba'
+# import {lax} from 'lax.js'
+
+window.onload = do 
+	lax.init!
+	lax.addDriver('scrollY', do return window.scrollY)
+	lax.addElements '.lax20',
+			scrollY:
+				translateY: [
+					["elInY", "elCenterY", "elOutY"]
+					['screenHeight/20', 0, '-screenHeight/20']
+				]
+	lax.addElements '.lax16',
+			scrollY:
+				translateY: [
+					["elInY", "elCenterY", "elOutY"]
+					['screenHeight/16', 0, '-screenHeight/16']
+				]
+	lax.addElements '.lax12',
+			scrollY:
+				translateY: [
+					["elInY", "elCenterY", "elOutY"]
+					['screenHeight/12', 0, '-screenHeight/12']
+				]
+	lax.addElements '.lax8',
+			scrollY:
+				translateY: [
+					["elInY", "elCenterY", "elOutY"]
+					['screenHeight/8', 0, '-screenHeight/8']
+				]
+	lax.addElements '.lax4',
+			scrollY:
+				translateY: [
+					["elInY", "elCenterY", "elOutY"]
+					['screenHeight/4', 0, '-screenHeight/4']
+				]
 
 tag App
 	

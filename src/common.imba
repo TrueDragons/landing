@@ -1,10 +1,7 @@
+export const lax = require('lax.js')
+
 export def timeout(ms)
 	return new Promise(do(resolve) setTimeout(resolve, ms))
-
-export def convertPath path, prevW, prevH, newW, newH
-	const Meanderer = require('meanderer')
-	const meanderer = new Meanderer({path: path, width: prevW, height: prevH})
-	return meanderer.generatePath(newW, newH)
 
 export def scalePath pathData, scaleFactor
 	const path = pathData.match(/([MmLlHhVvCcSsQqTtAaZz])([^MmLlHhVvCcSsQqTtAaZz]*)/g)
