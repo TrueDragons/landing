@@ -34,5 +34,5 @@ export tag Firework
 				elif state == 'off' and active
 					active = false
 	
-	<self>
+	<self [o:0.99]>
 

@@ -17,6 +17,8 @@ import {Finish} from '../objects/finish.imba'
 import {Confetti} from '../objects/confetti.imba'
 import {Bird} from '../objects/bird.imba'
 import {Leaves} from '../objects/leaves.imba'
+import {Traces} from '../objects/traces.imba'
+import {Bottle} from '../objects/bottle.imba'
 import {Animation} from '../objects/animation.imba'
 
 export tag Roadmap
@@ -85,9 +87,13 @@ export tag Roadmap
 			<Start states=states>
 				css pos:absolute t:55% w:33% r:48% h:auto 
 			<Finish states=states>
-				css pos:absolute t:78% w:33% r:18% h:auto
+				css pos:absolute t:78% w:33% r:18% h:auto zi:2
 			<Confetti states=states>
 				css pos:absolute t:68% w:50% l:38% h:auto
+			<Bottle states=states>
+				css pos:absolute t:80% h:auto w:100%
+			<Traces>
+				css pos:absolute t:65% w:50% l:18% h:auto zi:1
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
 				css pos:absolute t:47% w:45% r:22% zi:2
 			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
@@ -143,12 +149,12 @@ tag Path
 				states.change('catowl', 2)
 
 			if done >= 90
+				states.change('bottle', 'on')
 				states.change('finish', 'on')
-			elif done <= 50
-				states.change('finish', 'off')
-			if done >= 90
 				states.change('confetti', 'on')
 			elif done <= 50
+				states.change('bottle', 'off')
+				states.change('finish', 'off')
 				states.change('confetti', 'off')
 			
 

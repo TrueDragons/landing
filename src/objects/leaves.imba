@@ -27,20 +27,9 @@ tag Leave < img
 
 		image = images["leave{Math.ceil(Math.random! * 6)}"].url
 		const num = Math.ceil(Math.random! * 3)
-		# let num = 6
 		path = "path{num}"
-		# const num = 1
-		# if num == 1
-		# 	left = 0
-		# elif num == 2
-		# 	left = 10
 
 	def mount
-					
-		# duration = Math.round(Math.random! * 6000 + 4000)
-		# finish = Math.round(width * ( 1 - Math.random! / 3))
-		# size = Math.round(Math.random! * width / 300 * 10 + width / 300 * 5)
-		# left = Math.round(Math.random! * width)
 		await timeout(duration)
 		self.remove!
 
