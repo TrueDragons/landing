@@ -28,7 +28,13 @@ export tag Rarity
 
 	<self.block [of:visible]>
 		<div.header>
-			<span> "GET $TRUE! AS MUCH AS RARE YOUR PERSONALITY IS…"
+			<span> "GET "
+			<span.green> "$TRUE!"
+			<br>
+			<span> "AS MUCH AS "
+			<span.green> "RARE"
+			<br>
+			<span> "YOU ARE…"
 		<div>
 			css m:0 max-width:100% pos:relative # overflow:hidden overflow-y:auto 
 			<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."

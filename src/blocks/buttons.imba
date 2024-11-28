@@ -5,7 +5,12 @@ import {videos} from '../assets.imba'
 export tag Buttons
 	<self.block>
 		<div.header>
-			<span> "STAYING $TRUE (TO YOURSELF) YOU LOSE NOTHING"
+			<span> "YOU LOSE"
+			<br>
+			<span> "NOTHING IF YOU"
+			<br>
+			<span> "STAY "
+			<span.green> "$TRUE"
 			# <span> "Reveal who" 
 			# <br>
 			# <span> "you " 

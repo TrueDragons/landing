@@ -15,28 +15,32 @@ import {videos} from '../assets.imba'
 # 	artist: 'assets/artist.gif'
 
 export tag Friends
-	pos=200
-	vis = {top:false, bot:false}
+	# pos=200
+	# vis = {top:false, bot:false}
 	
-	def topvis value = true
-		vis.top = value
-		pos = -200 if !vis.top and vis.bot
-		pos = 0 if vis.top and vis.bot
-		imba.commit!
+	# def topvis value = true
+	# 	vis.top = value
+	# 	pos = -200 if !vis.top and vis.bot
+	# 	pos = 0 if vis.top and vis.bot
+	# 	imba.commit!
 	
-	def botvis value = true
-		vis.bot = value
-		pos = 200 if vis.top and !vis.bot
-		pos = 0 if vis.top and vis.bot
-		imba.commit!
+	# def botvis value = true
+	# 	vis.bot = value
+	# 	pos = 200 if vis.top and !vis.bot
+	# 	pos = 0 if vis.top and vis.bot
+	# 	imba.commit!
 		
-		# pos = -100 if !vis.top and vis.bottom
-		# console.log 'tophide'
+	# 	# pos = -100 if !vis.top and vis.bottom
+	# 	# console.log 'tophide'
 
 	<self.block>
 		<div.header>
-			<span> "ONLY FRIENDS CAN HONESTLY REVEAL WHO YOU ARE"
-			# <span.gray> "Step one:"
+			<span> "YOU NEED "
+			<span.green> "5 FRIENDS"
+			<br> 
+			<span> "TO MAKE MUTUAL"
+			<br>
+			<span> "REVIEWS"
 			# <br>
 			# <span> "Get "
 			# <span.green> " five "
@@ -47,8 +51,9 @@ export tag Friends
 			# <span.green> "your"  
 			# <br>
 			# <span.green> "friends"
-		<Video file=videos.painter>
 		<div.text> "All you need are 5 real friends who know you well. Complete memetic personality test for each other by selecting the PFP mascot attributes that you think best match your friend. NO GUILT. Get your pleasure by pointing out all your friends’ pros and cons…"
+		<Video file=videos.painter>
+		
 		#	css zi:-1
 		# <img src=video041>
 		# 	css w:300px

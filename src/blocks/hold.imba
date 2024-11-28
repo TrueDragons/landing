@@ -21,7 +21,12 @@ export tag Hold
 
 	<self.block>
 		<div.header>
-			<span> "KEEP YOUR $TRUES, AND LIFE-CHANGING TREASURE IS YOURS"
+			<span> "LIFE-CHANGING"
+			<br>
+			<span> "TREASURE FOR"
+			<br>
+			<span.green> "EVERY "
+			<span> "DRAGON"
 			# <span.gray> "Step three:" 
 			# <br>
 			# <span> "Be like a "

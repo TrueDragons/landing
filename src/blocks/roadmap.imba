@@ -24,7 +24,9 @@ import {Animation} from '../objects/animation.imba'
 export tag Roadmap
 	<self.block>
 		<div.header>
-			<span> "DRAGON TRUE PATH"
+			<span> "DRAGON "
+			<br>
+			<span> "TRUE PATH"
 			# <span.gray> "Step four:"
 			# <br>
 			# <span> "Have "

@@ -6,8 +6,7 @@ export tag Steps
 	<self.block>
 		<div.header>
 			<span> "The "
-			<span.green> "Way"
-			<br>
+			<span.green> "Way "
 			<span> "to go:"
 		<div>
 			css d:vflex m:auto mt:40px mb:40px
