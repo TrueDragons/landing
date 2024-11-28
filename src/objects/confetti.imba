@@ -34,6 +34,9 @@ export tag Confetti
 			particleCount: 200
 			spread: 50
 			startVelocity: 35
+			ticks: 80
+			# decay: 0.8
+			# scalar: 0.8
 			origin: { y: 0.7, x: 0 }
 		await fire(settings)
 
@@ -46,6 +49,9 @@ export tag Confetti
 			particleCount: 200
 			spread: 40
 			startVelocity: 15
+			ticks: 50
+			# decay: 0.8
+			# scalar: 0.8
 			origin: { y: 0.7, x: 0.2 }
 		await fire(settings)
 

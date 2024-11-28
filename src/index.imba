@@ -12,7 +12,7 @@ import {Hero} from './blocks/hero.imba'
 import {Buttons} from './blocks/buttons.imba'
 import {Steps} from './blocks/steps.imba'
 import {Friends} from './blocks/friends.imba'
-import {Slider} from './blocks/slider.imba'
+import {Attributes} from './blocks/attributes.imba'
 
 import {Rarity} from './blocks/rarity.imba'
 import {Hold} from './blocks/hold.imba'
@@ -81,7 +81,7 @@ tag App
 		<Buttons>
 		<Steps>
 		<Friends>
-		<Slider>
+		<Attributes>
 		<Rarity>
 		<Hold>
 		<Roadmap>
