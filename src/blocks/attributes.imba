@@ -1,6 +1,8 @@
 const characters = [
 	{
 		image: './assets/avif/attributes/character0.avif'
+		header: "Choose attribute"
+		text: 'Choose the attribute that mostly describes your friend'
 	}
 	{
 		image: './assets/avif/attributes/character1.avif'
