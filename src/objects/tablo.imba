@@ -1,4 +1,9 @@
-import {images} from '../assets.imba'
+const files = 
+	tablo:
+		path: 'url(./assets/avif/roadmap/tablo.avif)'
+		width: 461
+		height: 452
+
 
 export tag Tablo
 	flip = false
@@ -40,7 +45,7 @@ export tag Tablo
 					$line.flags.remove('line')
 					$date.flags.remove('date')
 
-	<self [of:hidden aspect-ratio: {images.tablo.width / images.tablo.height}]>
+	<self [of:hidden aspect-ratio: {files.tablo.width / files.tablo.height}]>
 		<div$back>
 			css pos:absolute ml:1% bgc:#47557A h:29% rdtl:20% rdtr:20% w:98%
 		<div$line> 
@@ -58,5 +63,5 @@ export tag Tablo
 					fs@lt-sm:0.8rem
 					fs@lt-xs:0.6rem
 		<div [scale-x:-1]=flip>
-			css pos:absolute bgi:{images.tablo.url} bgs:cover w:100% aspect-ratio: {images.tablo.width / images.tablo.height}
+			css pos:absolute bgi:{files.tablo.path} bgs:cover w:100% aspect-ratio: {files.tablo.width / files.tablo.height}
 

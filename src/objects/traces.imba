@@ -1,20 +1,20 @@
-import {images} from '../assets.imba'
-import {timeout} from '../common.imba'
+import {timeout, scalePath} from '../common.imba'
 
-css
-	.path offset-path: path("M 50,40 T 190,120,310,440")
+const files = 
+	trace:
+		path: './assets/avif/roadmap/trace.avif'
+		width: 54
+		height: 54
+		alt: "Trace"
 
-const SPEED = 200
+const SPEED = 400
 
 tag Trace < img
-	image
-	path
 	duration = SPEED *  5
 	count = 0
 	left = false
 
 	def setup
-		image = images.trace.url
 		self.style.setProperty('--duration', "{duration}ms")
 		self.style.setProperty('--distance', "{count * 5}%")
 
@@ -22,10 +22,11 @@ tag Trace < img
 		await timeout(duration)
 		self.remove!
 
-	<self.path [scale-x:-1 x:150%]=left src=image loading="lazy" decoding="asynchronous" width="56" height="56">
+	<self.path [scale-x:-1 x:150%]=left src=files.trace.path loading="lazy" decoding="asynchronous" width=files.trace.width height=files.trace.height alt=files.trace.alt>
 		css pos:absolute w:100% h:auto t:0 l:0 o:0
 			offset-distance: var(--distance) offset-rotate: 90deg auto
 			animation: show var(--duration) linear
+			offset-path: path(var(--path))
 			@keyframes 
 				show
 					0%   opacity: 0%
@@ -37,11 +38,15 @@ tag Trace < img
 export tag Traces
 	generator = undefined
 	count = -1
+	path = "M50,40T190,120,310,440"
+
+	def mount
+		path = '"' + scalePath(path, {x: self.clientWidth * 0.8 / 500, y: self.clientHeight / 500 }) + '"'
+		self.style.setProperty('--path', "{path}")
 	
 	def start
 		return if generator
 		generator = setInterval(&, SPEED) do
-			# self.appendChild <TraceLeft [w:7% h:auto]>
 			count++
 			const left = count % 2 
 			self.appendChild <Trace count=count left=left [w:7% h:auto]>

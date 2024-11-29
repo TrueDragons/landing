@@ -1,28 +1,28 @@
 const characters = [
 	{
-		image: './assets/image/character0.avif'
+		image: './assets/avif/attributes/character0.avif'
 	}
 	{
-		image: './assets/image/character1.avif'
-		attribute: './assets/image/attribute1.avif'
+		image: './assets/avif/attributes/character1.avif'
+		attribute: './assets/avif/attributes/attribute1.avif'
 		header: "Grumpy cat"
 		text: 'Somewhere deeply inside you hate all this grown-up-life'
 	}
 	{
-		image: './assets/image/character2.avif'
-		attribute: './assets/image/attribute2.avif'
+		image: './assets/avif/attributes/character2.avif'
+		attribute: './assets/avif/attributes/attribute2.avif'
 		header: "Trendy style"
 		text: "You are definitely smart but can't miss any hype"
 	}
 	{
-		image: './assets/image/character3.avif'
-		attribute: './assets/image/attribute3.avif'
+		image: './assets/avif/attributes/character3.avif'
+		attribute: './assets/avif/attributes/attribute3.avif'
 		header: "Hell cocktail of copium"
 		text: "Sometimes it feels like you'll keep pretending everything is fine, even while lying in a coma"
 	}
 	{
-		image: './assets/image/character4.avif'
-		attribute: './assets/image/attribute4.avif'
+		image: './assets/avif/attributes/character4.avif'
+		attribute: './assets/avif/attributes/attribute4.avif'
 		header: "Dogwifhat's hat"
 		text: "Because you have the talent to look cool even in grandma's clothes"
 	}
@@ -39,7 +39,7 @@ tag Attribute
 			background: linear-gradient(162deg, rgba(243,247,246,1) 0%, rgba(191,228,236,1) 50%, rgba(158,239,232,1) 100%)
 		# <div> 
 		# 	css w:25% h:auto l:0 t:0 rd:50% 2px solid aspect-ratio: {356 / 346} of:hidden mix-blend-mode:darken
-		<img src=characters[value].attribute loading="lazy" decoding="asynchronous" width="{356}" height="{346}">
+		<img src=characters[value].attribute loading="lazy" decoding="asynchronous" width="{356}" height="{346}" alt=characters[value].header>
 			css w:100% h:auto l:0 t:0 aspect-ratio:1 # object-fit:contain
 		# <div> 
 		# 	css d:vflex ml:30px
@@ -57,21 +57,11 @@ export tag Attributes
 			<br>
 			<span> "FRIEND'S "
 			<span.green> "VIBE"
-			# <span.gray> "Step two: "
-			# <br>
-			# <span> "Gain "
-			# <span.green> "$True "
-			# <br>
-			# <span> "depending"
-			# <br>
-			# <span> "on your "
-			# <br>
-			# <span.green> "rarity"
 		<div>
 			css pos:relative w:100% d:vflex ai:center mt:2em
 			<div>
 				css w:50% h:auto l:25% t:0 rd:50% bd:gray5 5px solid mt:5% aspect-ratio: {356 / 346} of:hidden
-				<img src=characters[character].image loading="lazy" decoding="asynchronous" width="{356}" height="{346}">
+				<img src=characters[character].image loading="lazy" decoding="asynchronous" width="{356}" height="{346}" alt=characters[character].header>
 					css w:100% h:auto l:0 t:0
 			<div>
 				css d:vflex w:50%

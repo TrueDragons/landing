@@ -1,5 +1,32 @@
-import {images} from '../assets.imba'
 import {timeout} from '../common.imba'
+import {Image} from '../objects/image.imba'
+
+const files = 
+	body:
+		path: './assets/avif/roadmap/bird_body.avif'
+		width: 167
+		height: 80
+		alt: "Body"
+	rhand:
+		path: './assets/avif/roadmap/bird_right_hand.avif'
+		width: 167
+		height: 80
+		alt: "Right hand"
+	rleg:
+		path: './assets/avif/roadmap/bird_right_leg.avif'
+		width: 167
+		height: 80
+		alt: "Right leg"
+	lhand:
+		path: './assets/avif/roadmap/bird_left_hand.avif'
+		width: 167
+		height: 80
+		alt: "Left hand"
+	lleg:
+		path: './assets/avif/roadmap/bird_left_leg.avif'
+		width: 167
+		height: 80
+		alt: "Left leg"
 
 export tag Bird
 
@@ -63,15 +90,15 @@ export tag Bird
 
 	<self [container-type: inline-size]>
 		<div$bird>
-			css w:10% h:auto aspect-ratio:{images.bird_body.width / images.bird_body.height}
-			<img$rhand .rhand src=images.bird_right_hand.url loading="lazy" decoding="asynchronous" width="{images.bird_right_hand.width}" height="{images.bird_right_hand.height}">
+			css w:10% h:auto aspect-ratio:{files.body.width / files.body.height}
+			<Image$rhand .rhand file=files.rhand>
 				css pos:absolute w:100% h:auto 
-			<img$lhand .lhand src=images.bird_left_hand.url loading="lazy" decoding="asynchronous" width="{images.bird_left_hand.width}" height="{images.bird_left_hand.height}">
+			<Image$lhand .lhand file=files.lhand>
 				css pos:absolute w:100% h:auto 
-			<img$lleg .lleg src=images.bird_left_leg.url loading="lazy" decoding="asynchronous" width="{images.bird_left_leg.width}" height="{images.bird_left_leg.height}">
+			<Image$lleg .lleg file=files.lleg>
 				css pos:absolute w:100% h:auto 
-			<img$rleg .rleg src=images.bird_right_leg.url loading="lazy" decoding="asynchronous" width="{images.bird_right_leg.width}" height="{images.bird_right_leg.height}">
+			<Image$rleg .rleg file=files.rleg>
 				css pos:absolute w:100% h:auto 
-			<img$body src=images.bird_body.url loading="lazy" decoding="asynchronous" width="{images.bird_body.width}" height="{images.bird_body.height}">
+			<Image$body file=files.body>
 				css pos:absolute w:100% h:auto 
 			

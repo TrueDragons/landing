@@ -1,4 +1,16 @@
-import {images} from '../assets.imba'
+import {Image} from '../objects/image.imba'
+
+const files =
+	body:
+		path: './assets/avif/roadmap/straus_body.avif'
+		width: 257
+		height: 249
+		alt: 'Straus body'
+	wing: 
+		path: './assets/avif/roadmap/straus_wing.avif'
+		width: 257
+		height: 249
+		alt: 'Straus wing'
 
 export tag Straus
 	css
@@ -12,9 +24,9 @@ export tag Straus
 	<self>
 		<div>
 			css w:100% pos:relative 
-			<img src=images.straus_body.url loading="lazy" decoding="asynchronous" width="{images.straus_body.width}" height="{images.straus_body.height}">
+			<Image file=files.body>
 				css pos:absolute w:100% h:auto 
 					animation: straus_body 3s infinite
-			<img src=images.straus_wing.url loading="lazy" decoding="asynchronous" width="{images.straus_wing.width}" height="{images.straus_wing.height}">
-				css w:100% h:auto # l:-16% t:0
+			<Image file=files.wing>
+				css w:100% h:auto
 					animation:straus_wing 3s infinite origin: 42% 18%

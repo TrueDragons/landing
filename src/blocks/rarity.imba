@@ -1,32 +1,38 @@
-const assets =	
+const files =	
 	airplane:
-		url: './assets/image/airplane.avif'
+		path: './assets/avif/rarity/airplane.avif'
 		width: 779
 		height: 958
+		alt: 'Airplane'
 	passport:
-		url: './assets/image/passport.avif'
+		path: './assets/avif/rarity/passport.avif'
 		width: 779
 		height: 958
+		alt: 'Passport'
 	seal:
-		url: './assets/image/seal.avif'
+		path: './assets/avif/rarity/seal.avif'
 		width: 779
 		height: 958
+		alt: 'Seal'
 	stamp:
-		url: './assets/image/stamp.avif'
+		path: './assets/avif/rarity/stamp.avif'
 		width: 779
 		height: 958
+		alt: 'Stamp'
 	scissors:
-		url: './assets/image/scissors.avif'
+		path: './assets/avif/rarity/scissors.avif'
 		width: 779
 		height: 958
+		alt: 'Scissors'
 	photo:
-		url: './assets/image/photo.avif'
+		path: './assets/avif/rarity/photo.avif'
 		width: 779
 		height: 958
+		alt: 'Photo'
 
 export tag Rarity
 
-	<self.block [of:visible]>
+	<self.block>
 		<div.header>
 			<span> "GET "
 			<span.green> "$TRUE!"
@@ -38,36 +44,20 @@ export tag Rarity
 		<div>
 			css m:0 max-width:100% pos:relative # overflow:hidden overflow-y:auto 
 			<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
-			# <div.header>
-			# 	<span> "GET $TRUE! AS MUCH AS RARE YOUR PERSONALITY IS…"
-			# 	# <span.gray> "Step two: "
-			# 	# <br>
-			# 	# <span> "Gain "
-			# 	# <span.green> "$True "
-			# 	# <br>
-			# 	# <span> "depending"
-			# 	# <br>
-			# 	# <span> "on your "
-			# 	# <br>
-			# 	# <span.green> "rarity"
-			# <div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
-			# 	css pos:absolute inset:0 transform:translateZ(0)
 			<div>
-				css pos:relative max-width:100% aspect-ratio: {assets.passport.width / (assets.passport.height)}
-				# bgi:{images.passport.bg} background-size:cover background-repeat: no-repeat max-width:100% aspect-ratio: {images.passport.width / images.passport.height}
-				<img src=assets.passport.url loading="lazy" decoding="asynchronous" width="{assets.passport.width}" height="{assets.passport.height}">
+				css pos:relative max-width:100% aspect-ratio: {files.passport.width / (files.passport.height)}
+				<img src=files.passport.path loading="lazy" decoding="asynchronous" width="{files.passport.width}" height="{files.passport.height}" alt=files.passport.alt>
 					css pos:absolute d:block zi:1 t:0% l:0% h:auto max-width:100% zi:0
-				<img.lax20 src=assets.photo.url loading="lazy" decoding="asynchronous" width="{assets.photo.width}" height="{assets.photo.height}">
+				<img.lax20 src=files.photo.path loading="lazy" decoding="asynchronous" width="{files.photo.width}" height="{files.photo.height}" alt=files.photo.alt>
 					css pos:absolute d:block zi:1 t:0% l:0% h:auto max-width:100% zi:0
-				<img.lax16 src=assets.scissors.url loading="lazy" decoding="asynchronous" width="{assets.scissors.width}" height="{assets.scissors.height}">
+				<img.lax16 src=files.scissors.path loading="lazy" decoding="asynchronous" width="{files.scissors.width}" height="{files.scissors.height}" alt=files.scissors.alt>
 					css pos:absolute d:block zi:1 t:0% l:0% h:auto max-width:100% zi:0
-				<img.lax12 src=assets.seal.url loading="lazy" decoding="asynchronous" width="{assets.seal.width}" height="{assets.seal.height}">
+				<img.lax12 src=files.seal.path loading="lazy" decoding="asynchronous" width="{files.seal.width}" height="{files.seal.height}" alt=files.seal.alt>
 					css pos:absolute d:block zi:1 t:0% l:0% h:auto max-width:100% zi:0
-				<img.lax4 src=assets.stamp.url loading="lazy" decoding="asynchronous" width="{assets.stamp.width}" height="{assets.stamp.height}">
+				<img.lax4 src=files.stamp.path loading="lazy" decoding="asynchronous" width="{files.stamp.width}" height="{files.stamp.height}" alt=files.stamp.alt>
 					css pos:absolute d:block zi:1 t:0% l:0% h:auto max-width:100% zi:0
 						
-				
-				<img src=assets.airplane.url loading="lazy" decoding="asynchronous" width="{assets.airplane.width}" height="{assets.airplane.height}">
+				<img src=files.airplane.path loading="lazy" decoding="asynchronous" width="{files.airplane.width}" height="{files.airplane.height}" alt=files.airplane.alt>
 					css pos:absolute d:block zi:1 t:0% l:0 h:auto max-width:100% zi:1
 						transform:rotate(270deg)
 						offset-path: ellipse(15% 32% at 35% 50.3%)

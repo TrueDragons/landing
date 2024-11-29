@@ -1,6 +1,22 @@
-import {images} from '../assets.imba'
+import {Image} from '../objects/image.imba'
 import {timeout, scalePath} from '../common.imba'
 
+const files =
+	cork:
+		path: './assets/avif/roadmap/cork.avif'
+		width: 45
+		height: 45
+		alt: "Cork"
+	open:
+		path: './assets/avif/roadmap/bottle_open.avif'
+		width: 260
+		height: 216
+		alt: 'Bottle'
+	close:
+		path: './assets/avif/roadmap/bottle_close.avif'
+		width: 260
+		height: 216
+		alt: 'Bottle'
 css
 	.shoot animation: move 1000ms ease-out forwards
 		@keyframes 
@@ -8,6 +24,7 @@ css
 				0%   offset-distance: 0%
 				90%  offset-distance: 100% opacity:1
 				100% offset-distance: 100% opacity:0
+
 export tag Bottle
 	states
 	active = false
@@ -44,12 +61,12 @@ export tag Bottle
 
 	<self>
 		<div$container>
-			css inset: 0 w:80% pos:relative h:{images.bottle_close.height}px ml:auto mr:auto
-			<img$close src=images.bottle_close.url loading="lazy" decoding="asynchronous" width="{images.bottle_close.width}" height="{images.bottle_close.height}">
+			css inset: 0 w:80% pos:relative h:{files.close.height}px ml:auto mr:auto
+			<Image$close file=files.close>
 				css pos:absolute w:15% h:auto t:0 r:0
-			<img$open.hidden src=images.bottle_open.url loading="lazy" decoding="asynchronous" width="{images.bottle_open.width}" height="{images.bottle_open.height}">
+			<Image$open.hidden file=files.open>
 				css pos:absolute w:15% h:auto t:0 r:0
-			<img$cork.hidden src=images.cork.url loading="lazy" decoding="asynchronous" width="{images.cork.width}" height="{images.cork.height}">
+			<Image$cork.hidden file=files.cork>
 				css pos:absolute h:auto w:3% l:7% t:-45%
 					offset-path:path({path})
 					offset-distance:0%

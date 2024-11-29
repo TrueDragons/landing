@@ -1,6 +1,23 @@
-import {images} from '../assets.imba'
 import {Video} from '../objects/video.imba'
-import {videos} from '../assets.imba'
+import {Image} from '../objects/image.imba'
+
+const files = 
+	video:
+		path: './assets/mp4/polygraph.mp4'
+		type: 'video/mp4'
+		width: 1080
+		height: 924
+	poster1:
+		path: './assets/avif/hold/poster1.avif'
+		width: 150
+		height: 258
+		alt: 'Hold your $True poster'
+	poster2:
+		path: './assets/avif/hold/poster2.avif'
+		width: 150
+		height: 207
+		alt: 'True dragon poster'
+
 
 export tag Hold
 	css 
@@ -27,26 +44,13 @@ export tag Hold
 			<br>
 			<span.green> "EVERY "
 			<span> "DRAGON"
-			# <span.gray> "Step three:" 
-			# <br>
-			# <span> "Be like a "
-			# <br>
-			# <span.green> "dragon"
-			# <br>
-			# <span> "and hold" 
-			# <br>
-			# <span> "your " 
-			# <span.green> "$true"
 			
 		
 		<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
 		<div>
 			css d:hflex jc:center ai:center
-			<img.swing1 src=images.poster1.url loading="lazy" decoding="asynchronous" width="{images.poster1.width}" height="{images.poster1.height}">
+			<Image.swing1 file=files.poster1>
 				css pos:relative zi:1 max-width:25% h:auto w:auto d:block mt:3rem
-			<img.swing2 src=images.poster2.url loading="lazy" decoding="asynchronous" width="{images.poster2.width}" height="{images.poster2.height}">
+			<Image.swing2 file=files.poster2>
 				css pos:relative zi:1 max-width:25% h:auto w:auto d:block mt:3rem ml:5rem
-		<Video file=videos.polygraph>
-		# <video.video playsInline loop autoplay muted>
-		# 	css aspect-ratio:1.1
-		# 	<source src='assets/video/polygraph.mp4' type="video/mp4">
+		<Video file=files.video>

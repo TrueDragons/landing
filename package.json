@@ -8,7 +8,7 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "dev": "bunx bimba ./src/index.imba --outdir public --watch --clearcache",
+    "dev": "bunx bimba ./src/index.imba --outdir public --watch --minify --clearcache",
     "bundle": "bunx bimba ./src/index.imba --outdir public --minify"
   },
   "peerDependencies": {

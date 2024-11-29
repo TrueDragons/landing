@@ -1,5 +1,23 @@
-import {images} from '../assets.imba'
 import {timeout} from '../common.imba'
+import {Image} from '../objects/image.imba'
+
+const files = 
+	body:
+		path: './assets/avif/roadmap/catowl_body.avif'
+		width: 124
+		height: 161
+		alt: 'Catowl body'
+	lwing:
+		path: './assets/avif/roadmap/catowl_lwing.avif'
+		width: 124
+		height: 161
+		alt: 'Catowl left wing'
+	rwing:
+		path: './assets/avif/roadmap/catowl_rwing.avif'
+		width: 124
+		height: 161
+		alt: 'Catowl right wing'
+
 
 export tag Catowl
 	states
@@ -91,11 +109,10 @@ export tag Catowl
 
 	<self.tablo1>
 		<div>
-			css w:100% aspect-ratio:{images.catowl_body.width / images.catowl_body.height}
-			<img$rwing src=images.catowl_rwing.url loading="lazy" decoding="asynchronous" width="{images.catowl_rwing.width}" height="{images.catowl_rwing.height}">
+			css w:100% aspect-ratio:{files.body.width / files.body.height}
+			<Image$rwing file=files.rwing>
 				css pos:absolute w:100% h:auto 
-			<img$lwing src=images.catowl_lwing.url loading="lazy" decoding="asynchronous" width="{images.catowl_lwing.width}" height="{images.catowl_lwing.height}">
+			<Image$lwing file=files.lwing>
 				css pos:absolute w:100% h:auto 
-			<img src=images.catowl_body.url loading="lazy" decoding="asynchronous" width="{images.catowl_body.width}" height="{images.catowl_body.height}">
+			<Image file=files.body>
 				css pos:absolute w:100% h:auto 
-				#	animation: straus_body 3s infinite

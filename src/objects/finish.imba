@@ -1,4 +1,37 @@
-import {images} from '../assets.imba'
+import {Image} from '../objects/image.imba'
+
+const files = 
+	right_stick:
+		path: './assets/avif/roadmap/finish_right_stick.avif'
+		width: 16
+		height: 191
+		alt: "Finish line"
+	left_stick:
+		path: './assets/avif/roadmap/finish_left_stick.avif'
+		width: 15
+		height: 181
+		alt: "Finish line"
+	right_main:
+		path: './assets/avif/roadmap/finish_right.avif'
+		width: 205
+		height: 74
+		alt: "Finish line"
+	left_main:
+		path: './assets/avif/roadmap/finish_left.avif'
+		width: 127
+		height: 151
+		alt: "Finish line"
+	right_tail:
+		path: './assets/avif/roadmap/finish_right_tail.avif'
+		width: 71
+		height: 174
+		alt: "Finish line"
+	left_tail:
+		path: './assets/avif/roadmap/finish_left_tail.avif'
+		width: 32
+		height: 141
+		alt: "Finish line"
+
 
 export tag Finish
 	states
@@ -57,17 +90,17 @@ export tag Finish
 			<div.waving_main>
 				css w:100% h:100%
 				
-				<img$left  src=images.finish_left.url loading="lazy" decoding="asynchronous" width="{images.finish_left.width}" height="{images.finish_left.height}">
+				<Image$left file=files.left_main>
 					css pos:absolute w:40% h:auto l:11% t:15%
-				<img$right src=images.finish_right.url loading="lazy" decoding="asynchronous" width="{images.finish_right.width}" height="{images.finish_right.height}">
+				<Image$right file=files.right_main>
 					css pos:absolute w:64% h:auto l:43% t:72%
 			
-				<img src=images.finish_left_tail.url loading="lazy" decoding="asynchronous" width="{images.finish_left_tail.width}" height="{images.finish_left_tail.height}">
+				<Image file=files.left_tail>
 					css pos:absolute w:10% h:auto l:0% t:15%
-				<img src=images.finish_right_tail.url loading="lazy" decoding="asynchronous" width="{images.finish_right_tail.width}" height="{images.finish_right_tail.height}">
+				<Image file=files.right_tail>
 					css pos:absolute w:23% h:auto l:107% t:84%
 
-			<img src=images.finish_right_stick.url loading="lazy" decoding="asynchronous" width="{images.finish_right_stick.width}" height="{images.finish_right_stick.height}">
+			<Image file=files.right_stick>
 				css pos:absolute w:5% h:auto l:104% t:72%
-			<img src=images.finish_left_stick.url loading="lazy" decoding="asynchronous" width="{images.finish_left_stick.width}" height="{images.finish_left_stick.height}">
+			<Image file=files.left_stick>
 				css pos:absolute w:5% h:auto l:9.2% t:0%

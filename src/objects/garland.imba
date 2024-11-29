@@ -1,5 +1,12 @@
-import {images} from '../assets.imba'
 import {timeout} from '../common.imba'
+import {Image} from '../objects/image.imba'
+
+const files = 
+	garland:
+		path: './assets/avif/roadmap/garland.avif'
+		width: 300
+		height: 67
+		alt: 'Garland'
 
 tag Flash
 
@@ -141,9 +148,9 @@ export tag Garland
 					active = false
 
 	<self>
-		<div [aspect-ratio: {images.garland.width / images.garland.height}]>
+		<div [aspect-ratio: {files.garland.width / files.garland.height}]>
 			css w:100% h:auto pos:relative 
-			<img src=images.garland.url loading="lazy" decoding="asynchronous" width="{images.garland.width}" height="{images.garland.height}">
+			<Image file=files.garland>
 				css pos:absolute w:100% h:auto t:-6% l:0
 			<Flash$b1>
 				css pos:absolute l:-2% t:90% scale-y:110% scale-x:80% rotate:90deg

@@ -1,5 +1,17 @@
-import {images} from '../assets.imba'
+import {Image} from '../objects/image.imba'
 import {timeout} from '../common.imba'
+
+const files = 
+	confetti1:
+		path: './assets/avif/roadmap/confetti1.avif'
+		width: 144
+		height: 144
+		alt: 'Confetti'
+	confetti2:
+		path: './assets/avif/roadmap/confetti2.avif'
+		width: 144
+		height: 144
+		alt: 'Confetti'
 
 export tag Confetti
 	states
@@ -73,8 +85,8 @@ export tag Confetti
 	<self>
 		<canvas$canvas>
 			css w:200%
-		<img$confetti1 src=images.confetti1.url loading="lazy" decoding="asynchronous" width="{images.confetti1.width}" height="{images.confetti1.height}">
+		<Image$confetti1 file=files.confetti1>
 			css pos:absolute w:20% h:auto transform: rotateZ(45deg) t:70% l:0%
-		<img$confetti2 src=images.confetti2.url loading="lazy" decoding="asynchronous" width="{images.confetti2.width}" height="{images.confetti2.height}">
+		<Image$confetti2 file=files.confetti2>
 			css pos:absolute w:20% h:auto transform: rotateZ(60deg) t:70% l:20%
 

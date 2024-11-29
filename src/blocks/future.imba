@@ -2,7 +2,6 @@
 export tag Future
 	<self.block>
 		<div.header>
-			# css h:23vh
 			<span> "What's " 
 			<span.green> "next "
 			<span> "?"
