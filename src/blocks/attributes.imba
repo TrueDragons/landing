@@ -14,13 +14,13 @@ const characters = [
 		image: './assets/avif/attributes/character2.avif'
 		attribute: './assets/avif/attributes/attribute2.avif'
 		header: "Trendy style"
-		text: "You are definitely smart but can't miss any hype"
+		text: "You’re definitely smart but can't ignore any hype"
 	}
 	{
 		image: './assets/avif/attributes/character3.avif'
 		attribute: './assets/avif/attributes/attribute3.avif'
 		header: "Hell cocktail of copium"
-		text: "Sometimes it feels like you'll keep pretending everything is fine, even while lying in a coma"
+		text: "You’ll keep pretending everything is fine, even while lying in coma"
 	}
 	{
 		image: './assets/avif/attributes/character4.avif'
@@ -34,24 +34,32 @@ tag Attribute
 	value
 	active = false
 	
-	<self>
+	css 
+		&.active
+			bxs:red10 3px 2px 2px
+		&.passive
+			bxs:gray4 3px 2px 2px
+	<self .active=active .passive=!active>
 		css cursor:pointer of:hidden
-			bxs:gray4 3px 2px 2px rd:14px w:10% # mb:1.5em w:80% py:1em px:1em w:100%
+			rd:14px w:10% # mb:1.5em w:80% py:1em px:1em w:100%
 			background: rgb(243,247,246)
 			background: linear-gradient(162deg, rgba(243,247,246,1) 0%, rgba(191,228,236,1) 50%, rgba(158,239,232,1) 100%)
-		# <div> 
-		# 	css w:25% h:auto l:0 t:0 rd:50% 2px solid aspect-ratio: {356 / 346} of:hidden mix-blend-mode:darken
 		<img src=characters[value].attribute loading="lazy" decoding="asynchronous" width="{356}" height="{346}" alt=characters[value].header>
 			css w:100% h:auto l:0 t:0 aspect-ratio:1 # object-fit:contain
-		# <div> 
-		# 	css d:vflex ml:30px
-		# 	<span> characters[value].header
-		# 		css ff:"Montserrat" fw:900 fs:24px ta:left lh:1.2em
-		# 	<span> characters[value].text
-		# 		css ff:"Montserrat" fw:400 fs:16px ta:left mt:1em
 
 export tag Attributes
 	character = 0
+	atts = [$att1, $att2, $att3, $att4]
+
+	def activate count = 1
+		let prev
+		for att, idx in atts
+			prev = idx + 1 if att.active
+			att.active=false
+
+		if prev != count
+			atts[count - 1].active = true
+		character = count
 
 	<self.block>
 		<div.header>
@@ -73,9 +81,9 @@ export tag Attributes
 					css ff:"Montserrat" fw:400 fs:16px mt:1em
 			<div>
 				css mt:2em d:hflex ai:center px:1em jc:center gap:2%
-				<Attribute$att1 value=1 @click=(character=1; $att1.active=!$att1.active)>
-				<Attribute$att2 value=2 @click=(character=2; $att2.active=!$att2.active)>	
-				<Attribute$att3 value=3 @click=(character=3; $att3.active=!$att3.active)>	
-				<Attribute$att4 value=4 @click=(character=4; $att4.active=!$att4.active)>
+				<Attribute$att1 value=1 @click=activate(1)>
+				<Attribute$att2 value=2 @click=activate(2)>	
+				<Attribute$att3 value=3 @click=activate(3)>	
+				<Attribute$att4 value=4 @click=activate(4)>
 			
 
