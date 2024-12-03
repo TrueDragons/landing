@@ -1,4 +1,5 @@
 import {Video} from '../objects/video.imba'
+import {Attributes} from '../objects/attributes.imba'
 
 const files =
 	video:
@@ -10,12 +11,11 @@ const files =
 export tag Friends
 	<self.block>
 		<div.header>
-			<span> "YOU NEED "
-			<span.green> "5 FRIENDS"
-			<br> 
-			<span> "TO MAKE MUTUAL"
-			<br>
-			<span> "REVIEWS"
-		<div.text> "All you need are 5 real friends who know you well. Complete memetic personality test for each other by selecting the PFP mascot attributes that you think best match your friend. NO GUILT. Get your pleasure by pointing out all your friends’ pros and cons…"
+			<span> "MAKE MUTUAL PERSONALITY FEEDBACKS WITH 5 FRIENDS"
+		<div.text> "All you need are five close mates who truly know you. Complete memetic personality test for each other by selecting the PFP mascot attributes that you think best match your friend."
+		<Attributes>
+			css mb:4%
+		<div.text> "On a base of five portraits, you can create your one resulting unique avatar — a humorous yet insightful psychological profile inspired by the 12 archetypes theory of Carl Gustav Jung. "
 		<Video file=files.video>
-		<div.text> "It’s a chance to find out how other people perceive you as a person — how you actually act with others, your intelligence and creativity powers, the way you behave with close mates and influence on other people."
+		<div.text> "Find out your strengths, weaknesses, and unique superpowers in the eyes of others. This will all matter for future activities..."
+		

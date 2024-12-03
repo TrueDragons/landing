@@ -34,16 +34,10 @@ export tag Rarity
 
 	<self.block>
 		<div.header>
-			<span> "GET "
-			<span.green> "$TRUE!"
-			<br>
-			<span> "AS MUCH AS "
-			<span.green> "RARE"
-			<br>
-			<span> "YOU ARE…"
+			<span> "THE RARER YOU ARE, THE MORE $TRUEs YOU GET"
 		<div>
 			css m:0 max-width:100% pos:relative # overflow:hidden overflow-y:auto 
-			<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
+			<div.text> "The rarity of all avatars will be revealed on Big Drop Day, and everyone will get their piece of $TRUEs according to their personal uniqueness. You'll literally be rewarded for being yourself!"
 			<div>
 				css pos:relative max-width:100% aspect-ratio: {files.passport.width / (files.passport.height)}
 				<img src=files.passport.path loading="lazy" decoding="asynchronous" width="{files.passport.width}" height="{files.passport.height}" alt=files.passport.alt>

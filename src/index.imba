@@ -4,7 +4,7 @@ import {Hero} from './blocks/hero.imba'
 import {Buttons} from './blocks/buttons.imba'
 import {Steps} from './blocks/steps.imba'
 import {Friends} from './blocks/friends.imba'
-import {Attributes} from './blocks/attributes.imba'
+# import {Attributes} from './blocks/attributes.imba'
 import {Rarity} from './blocks/rarity.imba'
 import {Hold} from './blocks/hold.imba'
 import {Roadmap} from './blocks/roadmap.imba'
@@ -16,7 +16,7 @@ tag App
 		<Buttons>
 		<Steps>
 		<Friends>
-		<Attributes>
+		# <Attributes>
 		<Rarity>
 		<Hold>
 		<Roadmap>

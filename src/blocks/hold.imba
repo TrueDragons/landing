@@ -46,7 +46,7 @@ export tag Hold
 			<span> "DRAGON"
 			
 		
-		<div.text> "Don’t worry about missing out on things — the only real loss is missing out on who you truly are. You don’t have to pick between money and self-discovery. Focus on yourself, and you’ll get both."
+		<div.text> "Don't be confused by the memecoin vibes. The Rarity Drop is a genuine one-time opportuniy, because it's a 10% pre-mint of the total $TRUE supply. The next 10% of the $TRUE will be mined over the next 10 years…"
 		<div>
 			css d:hflex jc:center ai:center
 			<Image.swing1 file=files.poster1>

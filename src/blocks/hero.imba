@@ -30,15 +30,17 @@ export tag Hero
 			css d:hflex h:32px ai:center mt:15px px:2rem
 			<Image file=files.logo>
 				css w:100px
-			<span [ml:20px]> "version 0.4.4"
+			<span [ml:20px]> "version 0.4.6"
 			<Image file=files.telegram>
 				css ml:auto mr:15px o@hover:0.5 cursor:pointer ead:0.5s
 			<Image file=files.twitter>
 				css o@hover:0.5 cursor:pointer ead:0.5s
 		<div.header [mt:5vh]>
-			<span> "Feeling "
+			<span> "Feels like "
 			<br>
-			<span.green> "lost"
+			<span.green> "falling"
+			<br>
+			<span> "behind"
 			<span> "?"
 		<Video file=files.video>
 		
