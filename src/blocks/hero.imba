@@ -30,7 +30,7 @@ export tag Hero
 			css d:hflex h:32px ai:center mt:15px px:2rem
 			<Image file=files.logo>
 				css w:100px
-			<span [ml:20px]> "version 0.4.8"
+			<span [ml:20px]> "version 0.4.9"
 			<Image file=files.telegram>
 				css ml:auto mr:15px o@hover:0.5 cursor:pointer ead:0.5s
 			<Image file=files.twitter>

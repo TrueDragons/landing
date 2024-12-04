@@ -119,13 +119,13 @@ export tag Attributes
 				<img$back loading="lazy" decoding="asynchronous" width="{300}" height="{320}" alt="Dragon attribute">
 					css w:100% pos:absolute h:auto l:0 t:0 transform: rotateY(-180deg) backface-visibility: hidden zi:2
 			<div>
-				css d:vflex w:100%
+				css d:vflex w:100% gap:1em mt:1em
 				<div>
 					<span> characters[character]..header
 						css ff: "Sigmar One" fw:600 fs:22px tt:uppercase c:#0099BD
 					#	css ff:"Handee" fw:900 fs:26px lh:1.2em mt:1em tt:uppercase c:#0099BD
 				<span> characters[character]..text
-					css ff:"Montserrat" fw:400 fs:16px w:50% ml:auto mr:auto mt:1em
+					css ff:"Montserrat" fw:400 fs:16px w:50% ml:auto mr:auto
 			<div>
 				css mt:2em d:hflex ai:center px:1em jc:center gap:0
 				<Button$but1 value=1 @click=activate(1)>
