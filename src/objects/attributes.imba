@@ -3,32 +3,32 @@ import {timeout} from '../common.imba'
 const characters = [
 	{
 		image: './assets/avif/attributes/character0.avif'
-		header: "Choose attribute"
-		text: 'Choose the attribute that mostly describes your friend'
+		header: "Friend's vibe:"
+		text: 'Choose the vibe that mostly describes your friend'
 	}
 	{
 		image: './assets/avif/attributes/character1.avif'
 		attribute: './assets/avif/attributes/attribute1.avif'
 		header: "Grumpy cat"
-		text: 'Somewhere deeply inside you hate all this grown-up-life'
+		text: '"Somewhere deeply inside hates all this grown-up-life"'
 	}
 	{
 		image: './assets/avif/attributes/character2.avif'
 		attribute: './assets/avif/attributes/attribute2.avif'
 		header: "Trendy style"
-		text: "You’re definitely smart but can't ignore any hype"
+		text: '"Definitely smart but can’t ignore any hype that happens nearby"'
 	}
 	{
 		image: './assets/avif/attributes/character3.avif'
 		attribute: './assets/avif/attributes/attribute3.avif'
-		header: "Hell cocktail of copium"
-		text: "You’ll keep pretending everything is fine, even while lying in coma"
+		header: "Cocktail of copium"
+		text: '"Keeps pretending everything is fine, even while lying in coma"'
 	}
 	{
 		image: './assets/avif/attributes/character4.avif'
 		attribute: './assets/avif/attributes/attribute4.avif'
 		header: "Dogwifhat's hat"
-		text: "Because you have the talent to look cool even in grandma's clothes"
+		text: '"There is a talent to look cool even in grandma’s clothes"'
 	}
 ]
 
@@ -105,9 +105,13 @@ export tag Attributes
 				75% transform: rotate(-5deg)
 				100% transform: rotate(0deg)
 
-	<self>		
+	<self>
 		<div>
 			css pos:relative w:100% d:vflex ai:center mt:2em perspective:350px
+			# <span [fs:24px fw:200]> "FRIEND'S"
+			# 	css  ff: "Sigmar One" fw:600 fs:22px mt:1em tt:uppercase c:#007F99 lh:1em
+			# <span [fs:24px fw:200]> "VIBE:"
+			# 	css  ff: "Sigmar One" fw:600 fs:22px mb:1em tt:uppercase c:#007F99 lh:1em
 			<div$card>
 				css w:70% max-width:300px pos:relative h:auto aspect-ratio: {300 / 320} transform-style: preserve-3d origin: center transition:transform 0.5s
 				<img$front loading="lazy" decoding="asynchronous" width="{300}" height="{320}" alt="Dragon attribute">
@@ -116,10 +120,12 @@ export tag Attributes
 					css w:100% pos:absolute h:auto l:0 t:0 transform: rotateY(-180deg) backface-visibility: hidden zi:2
 			<div>
 				css d:vflex w:100%
-				<span> characters[character]..header
-					css ff:"Handee" fw:900 fs:26px lh:1.2em mt:1em tt:uppercase
+				<div>
+					<span> characters[character]..header
+						css ff: "Sigmar One" fw:600 fs:22px tt:uppercase c:#0099BD
+					#	css ff:"Handee" fw:900 fs:26px lh:1.2em mt:1em tt:uppercase c:#0099BD
 				<span> characters[character]..text
-					css ff:"Montserrat" fw:400 fs:16px mt:1em w:50% ml:auto mr:auto
+					css ff:"Montserrat" fw:400 fs:16px w:50% ml:auto mr:auto mt:1em
 			<div>
 				css mt:2em d:hflex ai:center px:1em jc:center gap:0
 				<Button$but1 value=1 @click=activate(1)>
