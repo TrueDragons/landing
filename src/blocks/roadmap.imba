@@ -80,14 +80,14 @@ export tag Roadmap
 				css pos:absolute t:55% w:33% r:48% h:auto 
 			<Finish states=states>
 				css pos:absolute t:78% w:33% r:18% h:auto zi:2
+			<Traces>
+				css pos:absolute t:65% w:50% l:18% h:auto zi:0
 			<Confetti states=states>
 				css pos:absolute t:68% w:50% l:38% h:auto
 			<Bottle states=states>
 				css pos:absolute t:80% h:auto w:100%
-			<Traces>
-				css pos:absolute t:65% w:50% l:18% h:auto zi:1
 			<Tablo states=states name='tablo4' main='RPG Game' dates="April-May 2025">
 				css pos:absolute t:47% w:45% r:22% zi:2
 			<Tablo states=states name='tablo5' flip=true main="Quests IRL" dates="May-June 2025">
-				css pos:absolute t:83% w:45% l:7%
+				css pos:absolute t:83% w:45% l:7% zi:2
 			

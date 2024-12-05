@@ -106,6 +106,11 @@ export tag Attributes
 				100% transform: rotate(0deg)
 
 	<self>
+		<img src=characters[0].image loading="lazy" decoding="asynchronous" width="0" height="0" alt="Dragon attribute">
+		<img src=characters[1].image loading="lazy" decoding="asynchronous" width="0" height="0" alt="Dragon attribute">
+		<img src=characters[2].image loading="lazy" decoding="asynchronous" width="0" height="0" alt="Dragon attribute">
+		<img src=characters[3].image loading="lazy" decoding="asynchronous" width="0" height="0" alt="Dragon attribute">
+		<img src=characters[4].image loading="lazy" decoding="asynchronous" width="0" height="0" alt="Dragon attribute">
 		<div>
 			css pos:relative w:100% d:vflex ai:center mt:2em perspective:350px
 			# <span [fs:24px fw:200]> "FRIEND'S"
